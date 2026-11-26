@@ -12,6 +12,52 @@
 
 ---
 
+## Benchmark Overlap Across RQ2 Papers
+
+Benchmarks used by **≥2** papers, sorted by usage count. Shows where the field has converged on common evaluation surfaces and where papers go their own way.
+
+| # | Benchmark | Used by | Papers |
+|---|-----------|---------|--------|
+| 16 | **Natural Questions (NQ)** | open-domain QA | MemGPT, ChainOfNote, Lookback Lens, Kortukov, ContextFaithful-MemStrength, RAG-DDR, ReEval, Yu MHM, CK-PLUG, Amber, DRAG, DMP, TCR, FIDES, CogitoRAG, ParamMute (via CoFaithfulQA) |
+| 13 | **HotpotQA** | multi-hop QA | Kortukov, RAG-DDR, AssistRAG, CK-PLUG, Amber, DRAG, PORAG+ATLAS, LSTM-MAS, MemGraphRAG, TCR, CogitoRAG, TrustMem (via Mem-alpha), ParamMute (via CoFaithfulQA) |
+| 11 | **TriviaQA** | open-domain QA | Self-RAG, ChainOfNote, RC-RAG (RC-TQ), Kortukov, RAG-DDR, DRAG, DMP, Amber, TCR (ConflictTQA), FIDES (CF-RAG), ParamMute (via CoFaithfulQA) |
+| 8 | **PopQA** | long-tail entity QA | Self-RAG, Xie (Knowledge Conflicts), CRAG, ContextFaithful-MemStrength, DRAG, TCR (ConflictPQA), FIDES (CF-RAG), CogitoRAG |
+| 8 | **SQuAD / SQuAD v2** | reading comprehension | LongMem, Kortukov, Amber, DMP, Arteaga, SIRIN, TrustMem (via Mem-alpha), ParamMute (via CoFaithfulQA) |
+| 7 | **2WikiMultihopQA** | multi-hop QA | FLARE, AssistRAG, Amber, DRAG, LSTM-MAS, MemGraphRAG, CogitoRAG |
+| 7 | **LongMemEval** | long-term conv memory | RMM, OracleAgent, SIRIN, MemBook, MRAgent, Agent-Native Memory Survey, TrustMem (via MemoryAgentBench) |
+| 4 | **TruthfulQA** | truthful generation | Rowen, Yu MHM, IMAE, SAFE |
+| 4 | **StrategyQA** | commonsense reasoning | FLARE, Xie (Knowledge Conflicts), Rowen, DRAG |
+| 4 | **LoCoMo** | long-term conv memory | TeleMem, Synthius-Mem, MRAgent, Agent-Native Memory Survey |
+| 3 | **MuSiQue** | multi-hop QA | LSTM-MAS, MemGraphRAG, CogitoRAG |
+| 3 | **HaluEval** | hallucination QA | CEG, DMP, IMAE |
+| 3 | **FActScore / Biography** | long-form factuality | Self-RAG, Tao WikiAtomic, CRAG |
+| 3 | **MMLU** | knowledge benchmark | Multi-Agent Debate, Arteaga, HGU (MMLU subsets) |
+| 3 | **WoW / Wizard of Wikipedia** | grounded dialogue | FLARE, RAG-DDR, CK-PLUG (via KILT) |
+| 3 | **HaluMem-Medium / Long** | agent memory CRUD | HaluMem (introduces), MemBook, TrustMem |
+| 2 | **T-REx** | slot filling | RAG-DDR, CK-PLUG (via KILT) |
+| 2 | **FEVER** | fact verification | CK-PLUG (via KILT), TCR |
+| 2 | **PubHealth** | true/false factuality | Self-RAG, CRAG |
+| 2 | **ARC-Challenge** | science MCQ | Self-RAG, CRAG |
+| 2 | **CNN/DM** | summarization | Lookback Lens, RAGTruth |
+| 2 | **RealTimeQA** | up-to-date QA | ChainOfNote, ReEval |
+| 2 | **ConFiQA** | counterfactual RAG | CK-PLUG, ParamMute |
+| 2 | **MSC (Multi-Session Chat)** | long-term dialogue | MemGPT, RMM |
+| 2 | **RAGTruth** | RAG hallucination corpus | RAGTruth (introduces), SIRIN |
+| 2 | **WikiBio** | biography factuality | Larimar-Scaling, CEG |
+
+### Takeaways
+
+1. **The open-domain QA trio dominates.** NQ (16), HotpotQA (13), TriviaQA (11), PopQA (8) and SQuAD (8) carry most method evaluations. If a new RQ2 method skips all five, it's an outlier — usually because it's a memory-architecture paper evaluated on dialogue/long-term benchmarks instead.
+2. **Multi-hop reasoning has three canonical datasets.** HotpotQA, 2WikiMultihopQA, MuSiQue — several papers (CogitoRAG, MemGraphRAG, LSTM-MAS, Amber, DRAG) report all three together as a cluster.
+3. **Long-term memory systems converged on LongMemEval + LoCoMo.** Every 2025+ agent-memory paper that benchmarks episodic memory uses at least one of these. LongMemEval (7 papers) is slightly more common than LoCoMo (4).
+4. **Hallucination-specific benchmarks are fragmented.** TruthfulQA (4), HaluEval (3), FActScore (3), WikiBio (2), RAGTruth (2), HaluMem (3), ConFiQA (2) — no single benchmark is a de-facto standard for hallucination evaluation.
+5. **KILT suite (T-REx, FEVER, WoW)** appears mainly via two papers (CK-PLUG, RAG-DDR) rather than being broadly adopted.
+6. **Knowledge-conflict benchmarks are proliferating.** ConFiQA, NQ-Swap, ConflictBank, ConflictTQA/PQA, CoFaithfulQA, MQuAKE, Wikidata-Conflict-5K — most appear in exactly one paper. The taxonomy of benchmarks here is still ahead of reuse.
+7. **Many methods ship their own new benchmark** (HaluMem, MCPHallu, WikiAtomic, Concept-7, CoFaithfulQA, RC-TQ/NQ, KnowHalBench, FiFA, ZH-4O, GraphBench, PRISM, Rubric Feedback Bench, MemoryAgentBench) — a sign that general benchmarks under-cover specific failure modes the authors care about.
+8. **Multimodal, domain-specific, and agent-execution benchmarks are singletons.** POPE/CHAIR/MME (MemVR), MMCU/CMB (TC-RAG), BioASQ (SAFE), PubMedQA (PORAG+ATLAS), RiTeK/MIMIC (BioMem), ALFWorld/ScienceWorld/AppWorld (WikiTrace), TOFU/MUSE/WMDP (HGU), LCQUAD/QALD (PGMR), Gorilla (PORAG+ATLAS) — each belongs to one paper.
+
+---
+
 ## Batch 01
 
 ### KG-Hallucination-Survey — Can Knowledge Graphs Reduce Hallucinations in LLMs?: A Survey
