@@ -24,10 +24,10 @@ The three categories are **mutually exclusive on primary target**: a benchmark i
 
 | Paper | What They Measure | Key Signal |
 |-------|-------------------|------------|
-| **HalluLens** | Distinguishes *extrinsic* hallucinations (contradicting parametric memory) from *intrinsic* (contradicting given context) | Extrinsic rate = parametric memory failure |
-| **What Matters in Memorizing and Recalling Facts** | Multi-angle probing of fact recall via BELIEF framework + MyriadLAMA | Accuracy under varied prompting reveals recall instability |
-| **PRISM** | Disentangles four hallucination dimensions; KE and KM target parametric knowledge | KE/KM error rates isolate parametric failures from reasoning/instruction failures |
-| **Med-HALT** | Explicitly includes *memory-based hallucination tests* alongside reasoning tests | Medical domain reveals factual gaps in specialist knowledge |
+| **HalluLens** (Bang et al., 2025) | Distinguishes *extrinsic* hallucinations (contradicting parametric memory) from *intrinsic* (contradicting given context) | Extrinsic rate = parametric memory failure |
+| **What Matters in Memorizing and Recalling Facts** (Zhao et al., 2024) | Multi-angle probing of fact recall via BELIEF framework + MyriadLAMA | Accuracy under varied prompting reveals recall instability |
+| **PRISM** (Wu et al., 2026) | Disentangles four hallucination dimensions; KE and KM target parametric knowledge | KE/KM error rates isolate parametric failures from reasoning/instruction failures |
+| **Med-HALT** (Pal et al., 2023) | Explicitly includes *memory-based hallucination tests* alongside reasoning tests | Medical domain reveals factual gaps in specialist knowledge |
 
 ### Placement rationale
 
