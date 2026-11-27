@@ -7,10 +7,17 @@ agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,
 agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-gpt-5.4-mini,Figure 9(b),Evidence Recall,5,yes
 agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-qwen3-8b,Figure 9(a),Answer F1,5,yes
 agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-qwen3-8b,Figure 9(b),Evidence Recall,5,yes
+biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-huatuogpt-3-27b,Table 2,Memory Recall; QA Score,3,yes
+biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-huatuogpt-3-27b,Table 4,Memory Recall; QA Score,4,yes
+biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-meditron3-qwen2-5-14b,Table 2,Memory Recall; QA Score,4,yes
+biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-qwen3-30b-a3b-instruct-2507,Table 2,Memory Recall; QA Score,4,yes
+biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-qwen3-8b,Table 2,Memory Recall; QA Score,4,yes
 halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-long-original,Table 3,Accuracy; Hallucination rate; Omission rate,5,yes
 halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-medium-original,Table 3,Accuracy; Hallucination rate; Omission rate,6,yes
 locomo,LoCoMo,locomo-original-qa,locomo-original-qa,Table 2,Answer F1,4,no
 locomo,LoCoMo,locomo-original-qa,locomo-original-rag,Table 3,Answer F1; Recall@10; Recall@25; Recall@5; Recall@50,11,no
+locomo_plus,LoCoMo,locomo_plus-matched-benchmark-evaluations,locomo_plus-locomo-factual-qa,Table 1,Constraint-consistency judge score,7,yes
+locomo_plus,LoCoMo-Plus,locomo_plus-matched-benchmark-evaluations,locomo_plus-locomo-plus-cognitive-qa,Table 1,Constraint-consistency judge score,7,yes
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-GPT-4o-k10,Table 3,Accuracy,5,no
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-GPT-4o-k5,Table 3,Accuracy,5,no
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-L3.1 70B-k10,Table 3,Accuracy,5,no
@@ -50,10 +57,25 @@ memguard,LongMemEval,memguard-longmemeval-test-reference-cohort,memguard-longmem
 memguard,LongMemEval,memguard-longmemeval-test-reference-cohort,memguard-longmemeval-gpt-4o-mini,Table 2,Accuracy,3,yes
 memguard,PerLTQA,memguard-perltqa-test-reference-cohort,memguard-perltqa-gpt-4-1-mini,Table 2,Accuracy,3,yes
 memguard,PerLTQA,memguard-perltqa-test-reference-cohort,memguard-perltqa-gpt-4o-mini,Table 2,Accuracy,3,yes
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-a-mem,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-bm25-m,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-bm25-s,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-embed-m,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-embed-s,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-feedback-memoryos,Table 17,Answer F1,2,no
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-off-policy,Table 13,Answer F1,2,yes
+memorybench,LoCoMo,memorybench-locomo-cohort-possibly-overlapping,memorybench-locomo-off-policy,Table 14,Answer F1,4,no
 mragent,LoCoMo,mragent:LoCoMo,mragent-locomo-claude,Table 1,LLM-Judge,6,yes
 mragent,LoCoMo,mragent:LoCoMo,mragent-locomo-gemini,Table 1,LLM-Judge,6,yes
 mragent,LongMemEval,mragent:LongMemEval,mragent-longmemeval-s,Table 3,Runtime; Token consumption,5,no
 mragent,LongMemEval,mragent:LongMemEval,mragent-longmemeval-s,Table 5,LLM-Judge,6,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-memory-gpt-4o,Table 2,QA Score,5,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-memory-gpt-4o-mini,Table 2,QA Score,5,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-memory-semantic-retrieval,Table 2,Memory Helpfulness; Memory Recall,5,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-session-gpt-4o,Table 2,QA Score,4,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-session-gpt-4o-mini,Table 2,QA Score,4,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-session-indexed-retrieval,Table 3,NDCG@10; NDCG@20; Recall@10; Recall@20,3,yes
+realmem,RealMem,realmem-full-project-state-question-cohort,realmem-session-semantic-retrieval,Table 2,Memory Helpfulness; Memory Recall,4,yes
 rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-ablation,Table 2,Accuracy; Recall@5,5,no
 rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-gemini-1-5-pro,Table 4,Accuracy,2,no
 rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-granularity,Figure 4,Accuracy; Recall@5,4,no

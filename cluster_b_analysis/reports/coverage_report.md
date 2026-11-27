@@ -35,3 +35,16 @@ Each strict edge requires some retained original contrast with a shared reported
 Strict headline evidence increased from **7 to 28 distinct protocol block IDs**. The updated dataset has 32 block × source-table records with strict headline edges and 15 conservative cohort groups supporting them, up from six study–benchmark cohorts in the initial batch. Including within-architecture and other direct design panels gives 70 unique block IDs and 18 conservative cohort groups. These groups combine same-study panels where questions, users or runs are shared or their independence is unresolved. They are an upper bound on the number of independent groups for any single synthesis. Cross-study overlap, benchmark subsets, metric definitions and setting differences leave **zero replicated independent blocks verified for a common pooling estimand across the full network**. The effective sample size for any proposed narrower rank model remains unidentified from the printed averages. [Block inventory](../data/comparison_blocks.csv)
 
 Fixed-node leave-one-out analysis shows which bridges depend on a particular source. Removing HaluMem reduces the strict largest component from 21 to 18, removing RMM reduces it to 17, and removing all LoCoMo panels reduces it to 17. These results concern edge availability. They leave numerical rankings and uncertainty within each source panel unchanged. [Sensitivity results](../data/comparison_sensitivity.csv)
+
+## Stage 1C update
+
+| Projection | Before nodes | Current nodes | Before edges | Current edges | Components before → current | Largest before → current |
+|---|---:|---:|---:|---:|---:|---:|
+| Strict | 38 | 42 | 67 | 81 | 15 → 15 | 21 → 25 |
+| Relaxed | 38 | 42 | 191 | 205 | 2 → 2 | 37 → 41 |
+
+Among the original 38 graph labels, strict edges increased from 67 to 69, with the largest component still at 21. Much of the larger component therefore comes from evidence connecting newly covered systems. LoCoMo gains 145 verified cells from two papers. LoCoMo-Plus adds 17 cognitive outcome cells and 17 separate cross-benchmark diagnostic gaps. The two RealMem papers add 412 verified cells across full and medical-subset strata.
+
+The 90 protocol blocks contributing matched effects map to 22 potentially dependent cohorts, up from 70 blocks and 18 cohorts. The batch adds four cohort labels: MemoryBench LoCoMo, paired LoCoMo/LoCoMo-Plus questions, full RealMem, and BioMem's RealMem medical subset. Backbones and question categories within them reuse questions. LoCoMo reuse across studies and medical-subset overlap with full RealMem prevent treating these labels as independent replications. The full and medical RealMem protocols differ in question scope and GPT-4o versus GPT-4o-mini judging. Their cross-study records are incompatible for pooling. [Block inventory](../data/comparison_blocks.csv) · [Updated graph](../figures/comparison_network.png)
+
+New coverage includes revision after feedback, latent causal/state/goal/value constraint consistency, project-state retrieval and updating, proactive alignment, and medical conversational memory. These scores primarily measure memory and response quality. Adversarial rejection remains a narrow rubric-based diagnostic and can reward generic refusal. [Failure-mode map](../data/benchmark_failure_mode_mapping.csv)

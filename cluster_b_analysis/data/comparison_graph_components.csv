@@ -3,6 +3,8 @@ strict,1,MemGuard
 strict,1,MRAgent
 strict,1,RMM
 strict,1,A-Mem
+strict,1,Graph Memory
+strict,1,HMRU
 strict,1,LangMem
 strict,1,LD-Agent
 strict,1,LightMem
@@ -14,8 +16,10 @@ strict,1,MemoryBank
 strict,1,MemoryOS
 strict,1,MemOS
 strict,1,MemTree
+strict,1,MemZero
 strict,1,No History
 strict,1,RAG
+strict,1,SeCom
 strict,1,Sliding Window
 strict,1,Summarization
 strict,1,Supermemory
@@ -48,6 +52,8 @@ relaxed,1,A-Mem
 relaxed,1,AtomMem
 relaxed,1,Cognee
 relaxed,1,GAM
+relaxed,1,Graph Memory
+relaxed,1,HMRU
 relaxed,1,LangMem
 relaxed,1,LD-Agent
 relaxed,1,Letta
@@ -66,9 +72,11 @@ relaxed,1,MemoryBank
 relaxed,1,MemoryOS
 relaxed,1,MemOS
 relaxed,1,MemTree
+relaxed,1,MemZero
 relaxed,1,No External Memory
 relaxed,1,No History
 relaxed,1,RAG
+relaxed,1,SeCom
 relaxed,1,SimpleMem
 relaxed,1,Sliding Window
 relaxed,1,Summarization

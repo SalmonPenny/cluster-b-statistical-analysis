@@ -36,6 +36,10 @@ VERSIONS = {
     "synthius_mem": "April 2026 local preprint",
     "sirin": "arXiv:2608.00033v1",
     "agent_native_memory": "arXiv:2606.24775v1",
+    "memorybench": "arXiv:2510.17281v7",
+    "locomo_plus": "arXiv:2602.10715v1",
+    "realmem": "Findings of ACL 2026 (2026.findings-acl.703)",
+    "biomem": "arXiv:2611.13426v1",
 }
 ARCHITECTURES = {
     "mem0graph": "Mem0-Graph", "mem0": "Mem0", "amem": "A-Mem", "memgpt": "MemGPT",
@@ -72,6 +76,7 @@ BENCHMARK_NAMES = {
     "longmemeval": "LongMemEval", "locomo": "LoCoMo", "halumem": "HaluMem",
     "msc": "MSC", "multisessionchat": "MSC", "zh4o": "ZH-4O",
     "memoryagentbench": "MemoryAgentBench", "perltqa": "PerLTQA",
+    "locomoplus": "LoCoMo-Plus", "memorybench": "MemoryBench", "realmem": "RealMem",
 }
 
 
@@ -285,6 +290,8 @@ def pair_record(left, right, level, status, kind, reason):
 
 def cross_protocol(left, right):
     benchmark = left["benchmark"]
+    if benchmark == "RealMem" and {left["paper_id"], right["paper_id"]} == {"realmem", "biomem"}:
+        return ("Incompatible", "Full RealMem and the BioMem medical subset have different question scope and scoring protocols. Shared labels do not establish item-level replication.")
     if benchmark == "LoCoMo":
         return ("Incompatible", "Cross-study LoCoMo scoring and item-set equivalence is unestablished. Documented panels vary by release, lexical or semantic scorer, backbone, or question set.")
     if benchmark == "HaluMem":

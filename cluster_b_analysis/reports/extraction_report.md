@@ -75,3 +75,24 @@ python -B cluster_b_analysis/src/coverage.py
 ```
 
 Twenty screened papers awaited detailed extraction at the end of the initial batch. MemGuard is a candidate bridge across the three focus benchmarks. The original benchmark papers and the agent-native survey are candidates for protocol controls, independent reruns and further provenance. Remaining figures and diagnostics from the selected papers remain eligible when they add distinct evidence. Author clarification or evaluation artifacts would help resolve dataset membership, judging, metric definitions and uncertain baseline provenance. Further extraction and model implementation require authorization.
+
+## Stage 1C targeted expansion
+
+Detailed extraction now covers **16 of the 24 papers**. Selection favored matched controls and additional outcome types. MemoryBench adds a within-system feedback contrast and item-level dispersion. LoCoMo-Plus extends evaluation to latent conversational constraints under a common rubric. RealMem adds shared-reader and shared-judge project-state comparisons. BioMem adds medical-subset controls and interventions on a frozen reader. All four source publications were already in the collection.
+
+| Paper | Scope | Raw | Verified |
+|---|---|---:|---:|
+| MemoryBench | LoCoMo cells from Tables 13–14 and full Table 17 | 26 | 25 |
+| LoCoMo-Plus | Complete Tables 1 and 3, including the judge-sensitivity panel and derived gaps | 154 | 154 |
+| RealMem | Complete Tables 2–4, including reference conditions and missing session cells | 124 | 106 |
+| BioMem | RealMem medical-subset Tables 2 and 4, plus exact reported paired outcomes from Figures 5a, 7a and 7c | 306 | 306 |
+| **Added** | | **610** | **591** |
+
+The cumulative raw count is 3,019. Verified observations increased from **2,250 to 2,841**, verified configurations from **581 to 747**, and retained original observations from **1,746 to 2,266**. The 19 new missing cells remain in raw data. Both earlier evidence databases and all prior comparison decisions were reproduced row-for-row.
+
+- MemoryBench Table 17 reports a combination of feedback, additional dialogue and a second response. A-Mem gained 0.0280 F1 and MemoryOS fell 0.0014. Printed differences are retained as derived diagnostics. The Tables 13–14 SDs describe items, not repeated experiments. The effects group pairs within their original table, so continuation-table cross-system pairs are not counted.
+- LoCoMo-Plus factual aggregates remain conditional. One common category weighting cannot reproduce the table averages at the reported precision, and the Qwen3-8B judge-sensitivity aggregate is 56.89 versus 56.86 in the headline table. The primary judge identity for the headline panel is unreported. Matched GPT-4o category contrasts use the paper's shared rubric.
+- RealMem's Graph Memory session QA leadership applies to the GPT-4o-mini column. LightMem leads the non-oracle GPT-4o session column. RealMem Table 4 omits the specific answer generator and context construction. Keep these category outcomes conditional.
+- BioMem's 12 lower-precision Table 2 A-MEM observations repeat the more precise Table 4 anchor and remain excluded from synthesis. The 325-question perfect-answer panels are diagnostics. Within the HuatuoGPT-3-27B comparison, HMRU-R fixed 26 A-MEM outcomes and broke 10, with published paired McNemar p=0.011. This descriptive paired evidence is specific to that cohort and endpoint. It supplies no additional replication of the mean rubric-score comparisons.
+
+Eight papers remain eligible for detailed extraction: MemBench, LOCCO, ES-MemEval, Towards Root Memory, MemoryRewardBench, TWIST, MemGPT and Oracle Agent Memory. [Extraction status](../data/extraction_status.csv) · [Discrepancy log](../data/discrepancies.csv)

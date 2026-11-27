@@ -49,3 +49,9 @@ Sensitivity analyses should first track evidence inclusion. Compare strict versu
 - Benavoli et al.’s abstract motivates Bayesian alternatives to null hypothesis testing. [Benavoli et al. (2017)](https://www.jmlr.org/papers/v18/16-305.html)
 - Agarwal et al.’s project page links tools for interval estimates and aggregate performance under limited runs. These ideas require access to the appropriate paired units here. [Agarwal et al. (2021)](https://agarwl.github.io/rliable/)
 - HELM’s abstract motivates explicit scenario-by-metric coverage and comparisons under standardized conditions. [Liang et al. (2023)](https://arxiv.org/abs/2211.09110)
+
+## Stage 1C feasibility
+
+The added sources strengthen descriptive within-protocol analysis. MemoryBench gives matched feedback-package effects, RealMem gives shared-reader comparisons, and BioMem provides frozen-reader pipeline interventions and a separately reported paired binary endpoint. RealMem rubric-based QA scores remain on their reported scales. Their complement does not identify a binary error or hallucination rate. MemoryBench item SDs alone cannot identify paired differences' uncertainty. LoCoMo-Plus supports category-level profiles while the factual aggregate weights and primary judge identity remain unresolved.
+
+The strict label network is larger, but the batch establishes no additional independently replicated blocks eligible for pooling under an aligned protocol. Benchmark reuse, incompatible scorers and the reuse of a medical subset remain material. Probabilistic architecture ranking is still premature. Matched contrasts, careful within-panel descriptive ranking, and source-deletion sensitivity remain supportable. [Coverage and cohorts](coverage_report.md)

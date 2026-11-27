@@ -3,3 +3,4 @@ papers/*
 *.py
 # Cluster B research utilities
 !cluster_b_analysis/src/*.py
+!cluster_b_analysis/tests/test_effect_sizes.py
