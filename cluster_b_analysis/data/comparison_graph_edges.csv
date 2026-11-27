@@ -1,0 +1,489 @@
+architecture_a,architecture_b,paper_id,benchmark,block_id,status,metrics
+A-Mem,Cognee,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,Cognee,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,GAM,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,LangMem,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,LangMem,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+A-Mem,LangMem,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+A-Mem,LangMem,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+A-Mem,Letta,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,Letta,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+A-Mem,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+A-Mem,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+A-Mem,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+A-Mem,LightMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,Long Context,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+A-Mem,Long Context,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+A-Mem,MRAgent,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+A-Mem,MRAgent,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+A-Mem,MRAgent,mragent,LongMemEval,mragent-longmemeval-s,Conditionally comparable,LLM-Judge
+A-Mem,MRAgent,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+A-Mem,Mem0,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,Mem0,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,Mem0,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,Mem0,membook,LongMemEval,membook-longmemeval-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Accuracy
+A-Mem,Mem0,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+A-Mem,Mem0,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+A-Mem,Mem0,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+A-Mem,Mem0,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+A-Mem,Mem0,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+A-Mem,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,MemBook,membook,LongMemEval,membook-longmemeval-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Accuracy
+A-Mem,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,MemGuard,memguard,LoCoMo,memguard-locomo-gpt-4-1-mini,Conditionally comparable,Accuracy
+A-Mem,MemGuard,memguard,LoCoMo,memguard-locomo-gpt-4-1-mini,Directly comparable,Accuracy; Average retrieved tokens
+A-Mem,MemGuard,memguard,LoCoMo,memguard-locomo-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,MemGuard,memguard,LoCoMo,memguard-locomo-gpt-4o-mini,Directly comparable,Accuracy; Average retrieved tokens
+A-Mem,MemGuard,memguard,LongMemEval,memguard-longmemeval-gpt-4-1-mini,Directly comparable,Accuracy
+A-Mem,MemGuard,memguard,LongMemEval,memguard-longmemeval-gpt-4o-mini,Directly comparable,Accuracy
+A-Mem,MemGuard,memguard,PerLTQA,memguard-perltqa-gpt-4-1-mini,Directly comparable,Accuracy
+A-Mem,MemGuard,memguard,PerLTQA,memguard-perltqa-gpt-4o-mini,Directly comparable,Accuracy
+A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+A-Mem,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,Memobase,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+A-Mem,Memobase,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+A-Mem,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,MemoryOS,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+A-Mem,MemoryOS,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+A-Mem,MemoryOS,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+A-Mem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+A-Mem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+A-Mem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+A-Mem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+A-Mem,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+A-Mem,RAG,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+A-Mem,RAG,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+A-Mem,RAG,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+A-Mem,RAG,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+A-Mem,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
+A-Mem,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
+A-Mem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+A-Mem,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+AtomMem,Long Context,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+AtomMem,MEM1,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+AtomMem,MEM1,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+AtomMem,Mem-T,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Accuracy; Extraction accuracy; F1; Hallucination rate; Omission rate; Recall; Weighted recall
+AtomMem,Mem-T,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+AtomMem,Mem-T,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+AtomMem,Mem-α,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+AtomMem,MemAgent,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Accuracy; Extraction accuracy; F1; Hallucination rate; Omission rate; Recall; Weighted recall
+AtomMem,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+AtomMem,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+AtomMem,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+AtomMem,TRUSTMEM,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Extraction accuracy; F1; Recall; Weighted recall
+AtomMem,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+AtomMem,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+Cognee,Letta,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,Letta,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Cognee,LightMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,Mem0,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,Mem0,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Cognee,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Cognee,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Cognee,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Cognee,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Cognee,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+GAM,LangMem,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+GAM,Mem0,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+GAM,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+GAM,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+GAM,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+GAM,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+LD-Agent,Long Context,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+LD-Agent,Long Context,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+LD-Agent,MemoryBank,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+LD-Agent,MemoryBank,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+LD-Agent,No History,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+LD-Agent,No History,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+LD-Agent,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+LD-Agent,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+LD-Agent,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+LD-Agent,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+LangMem,MRAgent,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+LangMem,MRAgent,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+LangMem,MRAgent,mragent,LongMemEval,mragent-longmemeval-s,Conditionally comparable,LLM-Judge
+LangMem,MRAgent,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+LangMem,Mem0,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+LangMem,Mem0,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+LangMem,Mem0,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+LangMem,Mem0,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+LangMem,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+LangMem,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+LangMem,MemoryOS,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+LangMem,MemoryOS,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+LangMem,MemoryOS,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+LangMem,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+LangMem,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+LangMem,RAG,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+LangMem,RAG,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+LangMem,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Letta,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Letta,LightMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,Mem0,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,Mem0,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Letta,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Letta,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Letta,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Letta,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Letta,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,Mem0,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,Mem0,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+LightMem,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+LightMem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+LightMem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+LightMem,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+LightMem,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+LightMem,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,MEM1,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+Long Context,MEM1,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,Mem-T,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,Mem-α,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+Long Context,Mem-α,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,Mem0,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Long Context,Mem0,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,Mem0,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Long Context,Mem0,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Long Context,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+Long Context,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Long Context,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Long Context,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Long Context,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,Memobase,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Long Context,Memobase,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Long Context,MemoryBank,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+Long Context,MemoryBank,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Long Context,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Long Context,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,No External Memory,locomo,LoCoMo,locomo-original-qa,Conditionally comparable,Answer F1
+Long Context,No History,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+Long Context,No History,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Long Context,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Long Context,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Llama-3.2-1B-Instruct,Directly comparable,Accuracy
+Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Llama-3.2-3B-Instruct,Directly comparable,Accuracy
+Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Mistral-Nemo-Instruct-2407,Directly comparable,Accuracy
+Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Phi-3.5-mini-instruct,Directly comparable,Accuracy
+Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Qwen2.5-7B,Directly comparable,Accuracy
+Long Context,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+Long Context,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Long Context,RAG,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Long Context,RAG,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Long Context,RAG,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Long Context,RAG,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Directly comparable,Average task score; Task performance score
+Long Context,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Task performance score
+Long Context,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+Long Context,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Long Context,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Long Context,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,Sliding Window,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Long Context,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Long Context,Synthius-Mem,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Long Context,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Task performance score
+Long Context,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
+Long Context,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
+Long Context,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Long Context,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MEM1,Mem-T,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+MEM1,Mem-T,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+MEM1,Mem-α,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+MEM1,Mem-α,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+MEM1,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Directly comparable,Corruption rate; Hallucination rate; Omission rate
+MEM1,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Directly comparable,Average task score; Task performance score
+MEM1,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Average task score; Task performance score
+MEM1,RAG,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+MEM1,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+MEM1,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+MEM1,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Task performance score
+MEM1,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+MRAgent,Mem0,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+MRAgent,Mem0,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+MRAgent,Mem0,mragent,LongMemEval,mragent-longmemeval-s,Conditionally comparable,LLM-Judge
+MRAgent,Mem0,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+MRAgent,MemoryOS,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+MRAgent,MemoryOS,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+MRAgent,MemoryOS,mragent,LongMemEval,mragent-longmemeval-s,Conditionally comparable,LLM-Judge
+MRAgent,MemoryOS,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+MRAgent,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+MRAgent,RAG,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+MRAgent,RAG,mragent,LongMemEval,mragent-longmemeval-s,Conditionally comparable,LLM-Judge
+MRAgent,RAG,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+Mem-T,Mem-α,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Average task score; Task performance score
+Mem-T,MemAgent,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Accuracy; Extraction accuracy; F1; Hallucination rate; Omission rate; Recall; Weighted recall
+Mem-T,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+Mem-T,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+Mem-T,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Mem-T,TRUSTMEM,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Extraction accuracy; F1; Recall; Weighted recall
+Mem-T,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Directly comparable,Corruption rate; Hallucination rate; Omission rate
+Mem-T,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Average task score; Task performance score
+Mem-α,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+Mem-α,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+Mem-α,RAG,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+Mem-α,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Mem-α,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Directly comparable,Task performance score
+Mem-α,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Average task score; Task performance score
+Mem0,Mem0-Graph,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Mem0-Graph,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Mem0-Graph,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Mem0-Graph,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Mem0,MemBook,membook,LongMemEval,membook-longmemeval-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Accuracy
+Mem0,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Mem0,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Mem0,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,MemOS,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,MemOS,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,MemOS,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,MemOS,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Mem0,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Mem0,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,Memobase,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Memobase,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Memobase,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Memobase,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Mem0,Memobase,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Mem0,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Mem0,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,MemoryOS,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+Mem0,MemoryOS,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+Mem0,MemoryOS,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+Mem0,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+Mem0,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Mem0,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+Mem0,RAG,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+Mem0,RAG,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+Mem0,RAG,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Mem0,RAG,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Mem0,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Mem0,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Mem0,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
+Mem0,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
+Mem0,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+Mem0,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Mem0,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,MemOS,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,MemOS,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,MemOS,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,MemOS,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Memobase,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,Memobase,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,Memobase,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Mem0-Graph,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemAgent,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,RAG,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
+MemAgent,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+MemAgent,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemAgent,TRUSTMEM,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Extraction accuracy; F1; Recall; Weighted recall
+MemAgent,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
+MemAgent,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Task performance score
+MemAgent,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+MemAgent,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemBook,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemBook,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemBook,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemGPT,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemGPT,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+MemOS,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,Memobase,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+MemOS,Memobase,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+MemOS,Memobase,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+MemOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+MemOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+MemOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+MemOS,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+MemOS,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+MemOS,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemOS,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemOS,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemTree,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemTree,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemTree,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemTree,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemTree,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemTree,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
+MemTree,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
+MemTree,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
+MemTree,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
+MemTree,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemTree,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemTree,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemTree,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemTree,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoChat,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+MemoChat,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoChat,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemoChat,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoChat,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+MemoChat,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoChat,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+MemoChat,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Memobase,RAG,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
+Memobase,RAG,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Memobase,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Memobase,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
+Memobase,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Memobase,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
+Memobase,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
+Memobase,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Memobase,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Memobase,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemoryBank,No History,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+MemoryBank,No History,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+MemoryBank,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+MemoryBank,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+MemoryBank,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+MemoryBank,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+MemoryOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+MemoryOS,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoryOS,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
+MemoryOS,RAG,mragent,LoCoMo,mragent-locomo-gemini,Directly comparable,LLM-Judge
+MemoryOS,RAG,mragent,LongMemEval,mragent-longmemeval-s,Directly comparable,LLM-Judge
+MemoryOS,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+MemoryOS,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+MemoryOS,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+MemoryOS,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+No History,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+No History,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+No History,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
+No History,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+RAG,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
+RAG,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+RAG,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+RAG,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+RAG,Sliding Window,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
+RAG,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
+RAG,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+RAG,Synthius-Mem,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+RAG,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Task performance score
+RAG,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+RAG,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
+RAG,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
+RAG,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
+RAG,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+SimpleMem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
+SimpleMem,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Sliding Window,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
+Sliding Window,Synthius-Mem,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Summarization,Synthius-Mem,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
+Supermemory,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Supermemory,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Supermemory,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
+Supermemory,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate

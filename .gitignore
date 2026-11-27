@@ -1,3 +1,5 @@
 papers/*
 .claude/*
 *.py
+# Cluster B research utilities
+!cluster_b_analysis/src/*.py

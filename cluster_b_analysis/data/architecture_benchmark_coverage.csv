@@ -1,0 +1,39 @@
+architecture,LongMemEval,LoCoMo,HaluMem,MSC,ZH-4O,Mem-α validation set,MemoryAgentBench,PerLTQA
+MemBook,2,0,22,0,0,0,0,0
+MemGuard,4,4,3,0,0,0,0,8
+MRAgent,2,2,0,0,0,0,0,0
+RMM,13,0,0,10,0,0,0,0
+Synthius-Mem,0,1,0,0,0,0,0,0
+TeleMem,0,1,0,0,37,0,0,0
+TRUSTMEM,0,0,1,0,0,6,1,0
+A-Mem,9,14,0,0,1,0,0,2
+AtomMem,0,0,1,0,0,1,1,0
+Cognee,2,2,0,0,0,0,0,0
+GAM,1,0,0,0,0,0,0,0
+Human,0,1,0,0,0,0,0,0
+LangMem,2,2,0,0,0,0,0,0
+LD-Agent,1,0,0,1,0,0,0,0
+Letta,2,2,0,0,0,0,0,0
+LightMem,14,11,0,0,0,0,0,0
+Long Context,24,9,0,2,1,1,1,0
+Mem-T,0,0,1,0,0,1,1,0
+Mem-α,0,0,0,0,0,1,1,0
+Mem0,15,8,2,0,1,0,0,0
+Mem0-Graph,0,0,2,0,0,0,0,0
+MEM1,0,0,0,0,0,2,1,0
+MemAgent,1,0,1,0,0,2,1,0
+MemGPT,1,0,0,0,0,0,0,0
+Memobase,0,1,2,0,1,0,0,0
+MemoChat,4,6,0,0,0,0,0,0
+MemoryBank,1,0,0,1,0,0,0,0
+MemoryOS,3,8,0,0,0,0,0,0
+MemOS,4,9,2,0,0,0,0,0
+MemTree,4,9,0,0,0,0,0,0
+No External Memory,0,4,0,0,0,0,0,0
+No History,1,0,0,1,0,0,0,0
+RAG,156,22,0,3,1,1,1,0
+SimpleMem,13,6,0,0,0,0,0,0
+Sliding Window,0,1,0,0,0,0,0,0
+Summarization,0,1,0,0,0,0,0,0
+Supermemory,1,0,2,0,0,0,0,0
+Zep,2,3,2,0,0,0,0,0

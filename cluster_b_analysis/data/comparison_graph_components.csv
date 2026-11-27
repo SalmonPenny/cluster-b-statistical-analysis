@@ -1,0 +1,77 @@
+graph,component,architecture
+strict,1,MemGuard
+strict,1,MRAgent
+strict,1,RMM
+strict,1,A-Mem
+strict,1,LangMem
+strict,1,LD-Agent
+strict,1,LightMem
+strict,1,Long Context
+strict,1,Mem0
+strict,1,Mem0-Graph
+strict,1,Memobase
+strict,1,MemoryBank
+strict,1,MemoryOS
+strict,1,MemOS
+strict,1,MemTree
+strict,1,No History
+strict,1,RAG
+strict,1,Sliding Window
+strict,1,Summarization
+strict,1,Supermemory
+strict,1,Zep
+strict,2,TRUSTMEM
+strict,2,Mem-T
+strict,2,Mem-α
+strict,3,MEM1
+strict,3,MemAgent
+strict,4,AtomMem
+strict,5,Cognee
+strict,6,GAM
+strict,7,Letta
+strict,8,MOOM
+strict,9,MemBook
+strict,10,MemGPT
+strict,11,MemoChat
+strict,12,No External Memory
+strict,13,SimpleMem
+strict,14,Synthius-Mem
+strict,15,TeleMem
+relaxed,1,MemBook
+relaxed,1,MemGuard
+relaxed,1,MRAgent
+relaxed,1,RMM
+relaxed,1,Synthius-Mem
+relaxed,1,TeleMem
+relaxed,1,TRUSTMEM
+relaxed,1,A-Mem
+relaxed,1,AtomMem
+relaxed,1,Cognee
+relaxed,1,GAM
+relaxed,1,LangMem
+relaxed,1,LD-Agent
+relaxed,1,Letta
+relaxed,1,LightMem
+relaxed,1,Long Context
+relaxed,1,Mem-T
+relaxed,1,Mem-α
+relaxed,1,Mem0
+relaxed,1,Mem0-Graph
+relaxed,1,MEM1
+relaxed,1,MemAgent
+relaxed,1,MemGPT
+relaxed,1,Memobase
+relaxed,1,MemoChat
+relaxed,1,MemoryBank
+relaxed,1,MemoryOS
+relaxed,1,MemOS
+relaxed,1,MemTree
+relaxed,1,No External Memory
+relaxed,1,No History
+relaxed,1,RAG
+relaxed,1,SimpleMem
+relaxed,1,Sliding Window
+relaxed,1,Summarization
+relaxed,1,Supermemory
+relaxed,1,Zep
+relaxed,2,MOOM

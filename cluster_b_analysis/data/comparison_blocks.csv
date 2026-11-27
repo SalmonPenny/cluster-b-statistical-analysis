@@ -1,0 +1,80 @@
+paper_id,benchmark,cohort_group,block_id,table_id,metrics,configurations,graph_eligible
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-deepseek-chat,Figure 9(a),Answer F1,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-deepseek-chat,Figure 9(b),Evidence Recall,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-gpt-5.4,Figure 9(a),Answer F1,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-gpt-5.4,Figure 9(b),Evidence Recall,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-gpt-5.4-mini,Figure 9(a),Answer F1,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-gpt-5.4-mini,Figure 9(b),Evidence Recall,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-qwen3-8b,Figure 9(a),Answer F1,5,yes
+agent_native_memory,LoCoMo,agent_native_memory-locomo-cohort-overlap-unresolved,agent_native_memory-locomo-fig9-qwen3-8b,Figure 9(b),Evidence Recall,5,yes
+halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-long-original,Table 3,Accuracy; Hallucination rate; Omission rate,5,yes
+halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-medium-original,Table 3,Accuracy; Hallucination rate; Omission rate,6,yes
+locomo,LoCoMo,locomo-original-qa,locomo-original-qa,Table 2,Answer F1,4,no
+locomo,LoCoMo,locomo-original-qa,locomo-original-rag,Table 3,Answer F1; Recall@10; Recall@25; Recall@5; Recall@50,11,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-GPT-4o-k10,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-GPT-4o-k5,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-L3.1 70B-k10,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-L3.1 70B-k5,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-L3.1 8B-k10,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-L3.1 8B-k5,Table 3,Accuracy,5,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-round-retrieval,Table 3,NDCG@10; NDCG@5; Recall@10; Recall@5,10,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-GPT-4o-k10,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-GPT-4o-k5,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-L3.1 70B-k10,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-L3.1 70B-k5,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-L3.1 8B-k10,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-L3.1 8B-k5,Table 3,Accuracy,7,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-t3-session-retrieval,Table 3,NDCG@10; NDCG@5; Recall@10; Recall@5,14,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-temporal-round-k10,Table 4,NDCG@10; Recall@10,6,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-temporal-round-k5,Table 4,NDCG@5; Recall@5,6,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-temporal-session-k10,Table 4,NDCG@10; Recall@10,6,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-m-temporal-session-k5,Table 4,NDCG@5; Recall@5,6,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-M:Llama-3.2-1B-Instruct,Table 8,Accuracy,2,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-M:Llama-3.2-3B-Instruct,Table 8,Accuracy,2,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-M:Mistral-Nemo-Instruct-2407,Table 8,Accuracy,2,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-M:Phi-3.5-mini-instruct,Table 8,Accuracy,2,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-M:Qwen2.5-7B,Table 8,Accuracy,2,no
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Llama-3.2-1B-Instruct,Table 8,Accuracy,4,yes
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Llama-3.2-3B-Instruct,Table 8,Accuracy,4,yes
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Mistral-Nemo-Instruct-2407,Table 8,Accuracy,4,yes
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Phi-3.5-mini-instruct,Table 8,Accuracy,4,yes
+longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Qwen2.5-7B,Table 8,Accuracy,4,yes
+membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-a,Table 4a,F1,5,no
+membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-b,Table 4b,Accuracy,7,no
+membook,HaluMem,membook:HaluMem,membook-halu-medium-ablation-a,Table 4a,F1,5,no
+membook,HaluMem,membook:HaluMem,membook-halu-medium-ablation-b,Table 4b,Accuracy,7,no
+memguard,HaluMem,halumem-v3-shared-20-user-reference-cohort,memguard-halu-medium-gpt-4-1-mini,Table 1,Accuracy; Extraction accuracy; F1; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall,2,no
+memguard,LoCoMo,memguard-locomo-test-reference-cohort,memguard-locomo-gpt-4-1-mini,Table 2,Accuracy; Average retrieved tokens,3,yes
+memguard,LoCoMo,memguard-locomo-test-reference-cohort,memguard-locomo-gpt-4o-mini,Table 2,Accuracy; Average retrieved tokens,3,yes
+memguard,LongMemEval,memguard-longmemeval-test-reference-cohort,memguard-longmemeval-gpt-4-1-mini,Table 2,Accuracy,3,yes
+memguard,LongMemEval,memguard-longmemeval-test-reference-cohort,memguard-longmemeval-gpt-4o-mini,Table 2,Accuracy,3,yes
+memguard,PerLTQA,memguard-perltqa-test-reference-cohort,memguard-perltqa-gpt-4-1-mini,Table 2,Accuracy,3,yes
+memguard,PerLTQA,memguard-perltqa-test-reference-cohort,memguard-perltqa-gpt-4o-mini,Table 2,Accuracy,3,yes
+mragent,LoCoMo,mragent:LoCoMo,mragent-locomo-claude,Table 1,LLM-Judge,6,yes
+mragent,LoCoMo,mragent:LoCoMo,mragent-locomo-gemini,Table 1,LLM-Judge,6,yes
+mragent,LongMemEval,mragent:LongMemEval,mragent-longmemeval-s,Table 3,Runtime; Token consumption,5,no
+mragent,LongMemEval,mragent:LongMemEval,mragent-longmemeval-s,Table 5,LLM-Judge,6,yes
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-ablation,Table 2,Accuracy; Recall@5,5,no
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-gemini-1-5-pro,Table 4,Accuracy,2,no
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-granularity,Figure 4,Accuracy; Recall@5,4,no
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-granularity-offline-delta,Figure 5,Change in Accuracy; Change in Recall@5,4,no
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-k50-m10,Table 6,Accuracy; Recall@10,3,no
+rmm,LongMemEval,rmm:LongMemEval,rmm-longmemeval-main,Table 1,Accuracy; Recall@5,10,yes
+rmm,MSC,rmm:MSC,rmm-msc-ablation,Table 2,BERTScore; METEOR,5,no
+rmm,MSC,rmm:MSC,rmm-msc-gemini-1-5-pro,Table 4,BERTScore; METEOR,2,no
+rmm,MSC,rmm:MSC,rmm-msc-gemini-1-5-pro,Table 5,LLM judge agreement rate,2,no
+rmm,MSC,rmm:MSC,rmm-msc-main,Table 1,BERTScore; METEOR,10,yes
+rmm,MSC,rmm:MSC,rmm-msc-main,Table 5,LLM judge agreement rate,2,no
+sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-lightmem,Table 8,Relative generator completion token change; Served accuracy; Strict unfaithfulness,7,no
+sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-lightmem,Table 8 caption,Paired served accuracy change,2,no
+sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-mem0,Table 8,Relative generator completion token change; Served accuracy; Strict unfaithfulness,7,no
+sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-mem0,Table 8 caption,Paired served accuracy change,2,no
+sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-simplemem,Table 5,Relative generator completion token change; Served accuracy,7,no
+synthius_mem,LoCoMo,synthius_mem-controlled-qa,synthius_mem-controlled-qa,Table 5,LLM-Judge,3,yes
+telemem,LoCoMo,telemem:LoCoMo,telemem-locomo,Table 3,LLM-Judge,5,yes
+telemem,ZH-4O,telemem:ZH-4O,telemem-zh-4o,Table 1,QA Accuracy,5,yes
+telemem,ZH-4O,telemem:ZH-4O,telemem-zh-4o-scaling,Table 2,QA Accuracy,35,no
+trustmem,Mem-α validation set,trustmem-mem-alpha-validation-463,trustmem-mem-alpha-component-ablation,Table 4,Aggregate task score,5,no
+trustmem,Mem-α validation set,trustmem-mem-alpha-validation-463,trustmem-mem-alpha-transition-errors,Figure 2,Corruption rate; Hallucination rate; Omission rate,4,yes
+trustmem,Mem-α validation set,trustmem-mem-alpha-validation-463,trustmem-mem-alpha-validation,Table 1,Average task score; Task performance score,6,yes
+trustmem,MemoryAgentBench,trustmem-memoryagentbench-held-out-evaluation,trustmem-memoryagentbench,Table 2,Average task score; Task performance score,7,yes
