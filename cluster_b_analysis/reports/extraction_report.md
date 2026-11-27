@@ -96,3 +96,7 @@ The cumulative raw count is 3,019. Verified observations increased from **2,250 
 - BioMem's 12 lower-precision Table 2 A-MEM observations repeat the more precise Table 4 anchor and remain excluded from synthesis. The 325-question perfect-answer panels are diagnostics. Within the HuatuoGPT-3-27B comparison, HMRU-R fixed 26 A-MEM outcomes and broke 10, with published paired McNemar p=0.011. This descriptive paired evidence is specific to that cohort and endpoint. It supplies no additional replication of the mean rubric-score comparisons.
 
 Eight papers remain eligible for detailed extraction: MemBench, LOCCO, ES-MemEval, Towards Root Memory, MemoryRewardBench, TWIST, MemGPT and Oracle Agent Memory. [Extraction status](../data/extraction_status.csv) · [Discrepancy log](../data/discrepancies.csv)
+
+## Stage 1D follow-up
+
+The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).

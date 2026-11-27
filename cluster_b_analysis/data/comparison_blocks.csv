@@ -12,6 +12,31 @@ biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-hua
 biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-meditron3-qwen2-5-14b,Table 2,Memory Recall; QA Score,4,yes
 biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-qwen3-30b-a3b-instruct-2507,Table 2,Memory Recall; QA Score,4,yes
 biomem,RealMem,biomem-realmem-medical-question-cohort,biomem-realmem-medical-qwen3-8b,Table 2,Memory Recall; QA Score,4,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-gpt-3.5-turbo,Table 7,Observation Recall; Observation Weighted Score,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-gpt-3.5-turbo,Table 8,Emotional Support Rating; Long-term Memory Rating; Personalization Rating,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-gpt-4o,Table 7,Observation Recall; Observation Weighted Score,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-gpt-4o,Table 8,Emotional Support Rating; Long-term Memory Rating; Personalization Rating,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-mistral-24b,Table 7,Observation Recall; Observation Weighted Score,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-mistral-24b,Table 8,Emotional Support Rating; Long-term Memory Rating; Personalization Rating,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-mistral-8b,Table 7,Observation Recall; Observation Weighted Score,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-mistral-8b,Table 8,Emotional Support Rating; Long-term Memory Rating; Personalization Rating,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-phi-3-medium,Table 7,Observation Recall; Observation Weighted Score,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-dialogue-generation,es_memeval-dialogue-phi-3-medium,Table 8,Emotional Support Rating; Long-term Memory Rating; Personalization Rating,3,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-context-mistral-24b,Table 5,Answer F1; BERTScore; LLM-Judge,3,no
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-context-mistral-8b,Table 5,Answer F1; BERTScore; LLM-Judge,3,no
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-gpt-3.5-turbo,Table 3,Answer F1; BERTScore; LLM-Judge,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-gpt-4o,Table 3,Answer F1; BERTScore; LLM-Judge,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-mistral-24b,Table 3,Answer F1; BERTScore; LLM-Judge,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-mistral-8b,Table 3,Answer F1; BERTScore; LLM-Judge,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-phi-3-medium,Table 3,Answer F1; BERTScore; LLM-Judge,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-retrieval-round-level,Table 4,Answer F1; BERTScore; LLM-Judge; Recall@k; nDCG@k,3,no
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-retrieval-session-level,Table 4,Answer F1; BERTScore; LLM-Judge; Recall@k; nDCG@k,3,no
+es_memeval,ES-MemEval,es_memeval-evoemo-qa,es_memeval-qa-retrieval-turn-level,Table 4,Answer F1; BERTScore; LLM-Judge; Recall@k; nDCG@k,3,no
+es_memeval,ES-MemEval,es_memeval-evoemo-summarization,es_memeval-summarization-gpt-3.5-turbo,Table 6,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-summarization,es_memeval-summarization-gpt-4o,Table 6,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-summarization,es_memeval-summarization-mistral-24b,Table 6,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-summarization,es_memeval-summarization-mistral-8b,Table 6,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating,2,yes
+es_memeval,ES-MemEval,es_memeval-evoemo-summarization,es_memeval-summarization-phi-3-medium,Table 6,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating,2,yes
 halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-long-original,Table 3,Accuracy; Hallucination rate; Omission rate,5,yes
 halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,halumem-medium-original,Table 3,Accuracy; Hallucination rate; Omission rate,6,yes
 locomo,LoCoMo,locomo-original-qa,locomo-original-qa,Table 2,Answer F1,4,no
@@ -46,6 +71,28 @@ longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEva
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Mistral-Nemo-Instruct-2407,Table 8,Accuracy,4,yes
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Phi-3.5-mini-instruct,Table 8,Accuracy,4,yes
 longmemeval,LongMemEval,longmemeval-original-questions,longmemeval-t8-LongMemEval-S:Qwen2.5-7B,Table 8,Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-appendix-table-10-participation-qwen2.5-7b-instruct,Table 10,Memory Accuracy,7,no
+membench,MemBench,membench-sampled-membench-inputs,membench-appendix-table-11-participation-qwen2.5-7b-instruct,Table 11,Memory Accuracy,7,no
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-observation-1k-qwen2.5-7b-instruct,Table 3,Memory Accuracy,6,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-observation-timing-size-unlabelled-qwen2.5-7b-instruct,Table 3,Read time; Write time,5,no
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-100k-qwen2.5-7b-instruct,Table 3,Memory Accuracy,6,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-10k-qwen2.5-7b-instruct,Table 3,Memory Accuracy,6,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Table 5,Memory Accuracy; Read time; Write time,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-factual-participation-timing-size-unlabelled-qwen2.5-7b-instruct,Table 3,Read time; Write time,7,no
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-observation-timing-size-unlabelled-qwen2.5-7b-instruct,Table 4,Read time; Write time,5,no
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-participation-100k-qwen2.5-7b-instruct,Table 4,Memory Accuracy,6,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Table 5,Memory Accuracy,4,yes
+membench,MemBench,membench-sampled-membench-inputs,membench-reflective-participation-timing-size-unlabelled-qwen2.5-7b-instruct,Table 4,Read time; Write time,5,no
 membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-a,Table 4a,F1,5,no
 membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-b,Table 4b,Accuracy,7,no
 membook,HaluMem,membook:HaluMem,membook-halu-medium-ablation-a,Table 4a,F1,5,no
@@ -87,6 +134,11 @@ rmm,MSC,rmm:MSC,rmm-msc-gemini-1-5-pro,Table 4,BERTScore; METEOR,2,no
 rmm,MSC,rmm:MSC,rmm-msc-gemini-1-5-pro,Table 5,LLM judge agreement rate,2,no
 rmm,MSC,rmm:MSC,rmm-msc-main,Table 1,BERTScore; METEOR,10,yes
 rmm,MSC,rmm:MSC,rmm-msc-main,Table 5,LLM judge agreement rate,2,no
+root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,root-memory-imlogic-conversation-level-full,Table 5,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate,11,yes
+root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,root-memory-imlogic-memory-level-ablation,Figure 6,Accuracy,3,no
+root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,root-memory-imlogic-memory-level-top30,Table 4,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate,10,yes
+root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,root-memory-imlogic-open-ended-deepseek-flash,Table 7,Accuracy,6,yes
+root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,root-memory-imlogic-open-ended-qwen3-7-max,Table 7,Accuracy,6,yes
 sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-lightmem,Table 8,Relative generator completion token change; Served accuracy; Strict unfaithfulness,7,no
 sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-lightmem,Table 8 caption,Paired served accuracy change,2,no
 sirin,LongMemEval,sirin-longmemeval-shared-questions,sirin-longmemeval-mem0,Table 8,Relative generator completion token change; Served accuracy; Strict unfaithfulness,7,no

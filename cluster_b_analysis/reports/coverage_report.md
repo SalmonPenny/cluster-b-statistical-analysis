@@ -48,3 +48,7 @@ Among the original 38 graph labels, strict edges increased from 67 to 69, with t
 The 90 protocol blocks contributing matched effects map to 22 potentially dependent cohorts, up from 70 blocks and 18 cohorts. The batch adds four cohort labels: MemoryBench LoCoMo, paired LoCoMo/LoCoMo-Plus questions, full RealMem, and BioMem's RealMem medical subset. Backbones and question categories within them reuse questions. LoCoMo reuse across studies and medical-subset overlap with full RealMem prevent treating these labels as independent replications. The full and medical RealMem protocols differ in question scope and GPT-4o versus GPT-4o-mini judging. Their cross-study records are incompatible for pooling. [Block inventory](../data/comparison_blocks.csv) · [Updated graph](../figures/comparison_network.png)
 
 New coverage includes revision after feedback, latent causal/state/goal/value constraint consistency, project-state retrieval and updating, proactive alignment, and medical conversational memory. These scores primarily measure memory and response quality. Adversarial rejection remains a narrow rubric-based diagnostic and can reward generic refusal. [Failure-mode map](../data/benchmark_failure_mode_mapping.csv)
+
+## Stage 1D follow-up
+
+The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).

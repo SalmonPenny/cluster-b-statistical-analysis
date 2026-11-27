@@ -50,3 +50,7 @@ All six focused tests passed. The pipeline completed once and produced the resul
 ## Stage 1C rerun
 
 The existing Stage 2A pipeline ran against the 16-paper evidence base without changes to its statistical modules. It produced **3,243 eligible contrasts**, including **384 baseline-relative** and **2,859 other pairwise** contrasts, spanning **90 protocol blocks** and **22 potentially dependent cohorts**. All 2,704 earlier effect records reproduced exactly, including their source identifiers, effect sizes and limitations. All six existing tests passed. The updated result and example figure are linked above.
+
+## Stage 1D follow-up
+
+The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).

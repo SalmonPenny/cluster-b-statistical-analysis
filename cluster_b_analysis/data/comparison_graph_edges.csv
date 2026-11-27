@@ -1,6 +1,8 @@
 architecture_a,architecture_b,paper_id,benchmark,block_id,status,metrics
 A-Mem,Cognee,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 A-Mem,Cognee,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,EverMemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+A-Mem,EverMemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,GAM,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 A-Mem,Graph Memory,realmem,RealMem,realmem-memory-gpt-4o,Conditionally comparable,QA Score
 A-Mem,Graph Memory,realmem,RealMem,realmem-memory-gpt-4o,Directly comparable,QA Score
@@ -40,6 +42,8 @@ A-Mem,LightMem,realmem,RealMem,realmem-session-gpt-4o,Directly comparable,QA Sco
 A-Mem,LightMem,realmem,RealMem,realmem-session-gpt-4o-mini,Conditionally comparable,QA Score
 A-Mem,LightMem,realmem,RealMem,realmem-session-gpt-4o-mini,Directly comparable,QA Score
 A-Mem,LightMem,realmem,RealMem,realmem-session-semantic-retrieval,Directly comparable,Memory Helpfulness; Memory Recall
+A-Mem,LightMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+A-Mem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 A-Mem,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 A-Mem,Long Context,biomem,RealMem,biomem-realmem-medical-meditron3-qwen2-5-14b,Conditionally comparable,Memory Recall; QA Score
@@ -79,8 +83,10 @@ A-Mem,Mem0,realmem,RealMem,realmem-session-gpt-4o-mini,Conditionally comparable,
 A-Mem,Mem0,realmem,RealMem,realmem-session-gpt-4o-mini,Directly comparable,QA Score
 A-Mem,Mem0,realmem,RealMem,realmem-session-indexed-retrieval,Directly comparable,NDCG@10; NDCG@20; Recall@10; Recall@20
 A-Mem,Mem0,realmem,RealMem,realmem-session-semantic-retrieval,Directly comparable,Memory Helpfulness; Memory Recall
+A-Mem,Mem0,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,Mem0,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
 A-Mem,Mem0,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+A-Mem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 A-Mem,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 A-Mem,MemBook,membook,LongMemEval,membook-longmemeval-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Accuracy
@@ -99,6 +105,8 @@ A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,D
 A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
 A-Mem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
 A-Mem,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+A-Mem,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+A-Mem,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
 A-Mem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
@@ -148,6 +156,8 @@ A-Mem,SeCom,locomo_plus,LoCoMo-Plus,locomo_plus-locomo-plus-cognitive-qa,Directl
 A-Mem,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 A-Mem,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 A-Mem,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+A-Mem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+A-Mem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 A-Mem,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
 A-Mem,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
 A-Mem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
@@ -166,6 +176,15 @@ AtomMem,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally co
 AtomMem,TRUSTMEM,trustmem,HaluMem,trustmem-halu-medium-methods,Conditionally comparable,Extraction accuracy; F1; Recall; Weighted recall
 AtomMem,TRUSTMEM,trustmem,Mem-α validation set,trustmem-mem-alpha-transition-errors,Conditionally comparable,Corruption rate; Hallucination rate; Omission rate
 AtomMem,TRUSTMEM,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Average task score; Task performance score
+BM25,Entity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,Hierarchical Cluster-Tree,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,Query Reconstruction + Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,Qwen3-Embedding-4B,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+BM25,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Cognee,Letta,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Cognee,Letta,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Cognee,LightMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
@@ -189,12 +208,139 @@ Cognee,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Cond
 Cognee,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Cognee,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Cognee,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Entity-Linked Graph,Hierarchical Cluster-Tree,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,Query Reconstruction + Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,Qwen3-Embedding-4B,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Entity-Linked Graph,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,EverMemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,EverMemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS,EverMemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS,LightMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,LightMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS,LightMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS,Mem0,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,LightMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,LightMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS + RootMem,LightMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS + RootMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS + RootMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+EverMemOS + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+EverMemOS + RootMem,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+EverMemOS + RootMem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 GAM,LangMem,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,Mem0,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Long Context,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemGPT,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,MemoryBank,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,SCMemory,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Generative Agents,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
 Graph Memory,LightMem,realmem,RealMem,realmem-memory-gpt-4o,Conditionally comparable,QA Score
 Graph Memory,LightMem,realmem,RealMem,realmem-memory-gpt-4o,Directly comparable,QA Score
 Graph Memory,LightMem,realmem,RealMem,realmem-memory-gpt-4o-mini,Conditionally comparable,QA Score
@@ -224,6 +370,13 @@ Graph Memory,MemoryOS,realmem,RealMem,realmem-memory-gpt-4o-mini,Conditionally c
 Graph Memory,MemoryOS,realmem,RealMem,realmem-memory-gpt-4o-mini,Directly comparable,QA Score
 Graph Memory,MemoryOS,realmem,RealMem,realmem-memory-semantic-retrieval,Directly comparable,Memory Helpfulness; Memory Recall
 Graph Memory,MemoryOS,realmem,RealMem,realmem-project-state-typed,Conditionally comparable,Memory Recall; QA Score
+Hierarchical Cluster-Tree,Query Reconstruction + Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,Qwen3-Embedding-4B,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Hierarchical Cluster-Tree,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 LD-Agent,Long Context,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 LD-Agent,Long Context,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
 LD-Agent,MemoryBank,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
@@ -273,6 +426,9 @@ Letta,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Condi
 Letta,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Letta,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Letta,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+LightMem,LightMem + RootMem,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
 LightMem,Long Context,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 LightMem,Long Context,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 LightMem,Long Context,biomem,RealMem,biomem-realmem-medical-huatuogpt-3-27b,Conditionally comparable,Memory Recall; QA Score
@@ -292,6 +448,12 @@ LightMem,Mem0,realmem,RealMem,realmem-session-gpt-4o,Directly comparable,QA Scor
 LightMem,Mem0,realmem,RealMem,realmem-session-gpt-4o-mini,Conditionally comparable,QA Score
 LightMem,Mem0,realmem,RealMem,realmem-session-gpt-4o-mini,Directly comparable,QA Score
 LightMem,Mem0,realmem,RealMem,realmem-session-semantic-retrieval,Directly comparable,Memory Helpfulness; Memory Recall
+LightMem,Mem0,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+LightMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+LightMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+LightMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
 LightMem,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
@@ -299,6 +461,8 @@ LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.
 LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4-mini,Directly comparable,Answer F1; Evidence Recall
 LightMem,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-qwen3-8b,Directly comparable,Answer F1; Evidence Recall
 LightMem,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
 LightMem,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
@@ -330,8 +494,20 @@ LightMem,RAG,biomem,RealMem,biomem-realmem-medical-qwen3-30b-a3b-instruct-2507,D
 LightMem,RAG,biomem,RealMem,biomem-realmem-medical-qwen3-8b,Directly comparable,Memory Recall; QA Score
 LightMem,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 LightMem,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 LightMem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 LightMem,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+LightMem + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+LightMem + RootMem,Mem0,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+LightMem + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+LightMem + RootMem,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
+LightMem + RootMem,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem + RootMem,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem + RootMem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+LightMem + RootMem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Long Context,MEM1,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
 Long Context,MEM1,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
 Long Context,Mem-T,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
@@ -349,6 +525,14 @@ Long Context,Mem0,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
 Long Context,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Long Context,MemAgent,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Conditionally comparable,Average task score; Task performance score
 Long Context,MemAgent,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Conditionally comparable,Task performance score
+Long Context,MemGPT,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemGPT,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 Long Context,MemOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 Long Context,MemOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Long Context,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
@@ -361,11 +545,24 @@ Long Context,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7
 Long Context,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Long Context,Memobase,telemem,LoCoMo,telemem-locomo,Directly comparable,LLM-Judge
 Long Context,Memobase,telemem,ZH-4O,telemem-zh-4o,Directly comparable,QA Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,MemoryBank,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 Long Context,MemoryBank,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 Long Context,MemoryBank,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
 Long Context,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Long Context,MemoryOS,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Long Context,MemoryOS,memorybench,LoCoMo,memorybench-locomo-off-policy,Conditionally comparable,Answer F1
+Long Context,No External Memory,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-3.5-turbo,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,No External Memory,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-4o,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,No External Memory,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-24b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,No External Memory,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-8b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,No External Memory,es_memeval,ES-MemEval,es_memeval-dialogue-phi-3-medium,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
 Long Context,No External Memory,locomo,LoCoMo,locomo-original-qa,Conditionally comparable,Answer F1
 Long Context,No History,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 Long Context,No History,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
@@ -375,6 +572,21 @@ Long Context,RAG,biomem,RealMem,biomem-realmem-medical-huatuogpt-3-27b,Condition
 Long Context,RAG,biomem,RealMem,biomem-realmem-medical-meditron3-qwen2-5-14b,Conditionally comparable,Memory Recall; QA Score
 Long Context,RAG,biomem,RealMem,biomem-realmem-medical-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Memory Recall; QA Score
 Long Context,RAG,biomem,RealMem,biomem-realmem-medical-qwen3-8b,Conditionally comparable,Memory Recall; QA Score
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-3.5-turbo,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-4o,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-24b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-8b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-phi-3-medium,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-qa-gpt-3.5-turbo,Directly comparable,Answer F1; BERTScore; LLM-Judge
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-qa-gpt-4o,Directly comparable,Answer F1; BERTScore; LLM-Judge
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-qa-mistral-24b,Directly comparable,Answer F1; BERTScore; LLM-Judge
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-qa-mistral-8b,Directly comparable,Answer F1; BERTScore; LLM-Judge
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-qa-phi-3-medium,Directly comparable,Answer F1; BERTScore; LLM-Judge
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-summarization-gpt-3.5-turbo,Directly comparable,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-summarization-gpt-4o,Directly comparable,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-summarization-mistral-24b,Directly comparable,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-summarization-mistral-8b,Directly comparable,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating
+Long Context,RAG,es_memeval,ES-MemEval,es_memeval-summarization-phi-3-medium,Directly comparable,Event F1; Event Precision; Event Recall; ROUGE-1; ROUGE-2; ROUGE-L; Summary LLM Rating
 Long Context,RAG,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Conditionally comparable,Constraint-consistency judge score
 Long Context,RAG,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Directly comparable,Constraint-consistency judge score
 Long Context,RAG,locomo_plus,LoCoMo-Plus,locomo_plus-locomo-plus-cognitive-qa,Conditionally comparable,Constraint-consistency judge score
@@ -384,6 +596,26 @@ Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Llama-3.2-
 Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Mistral-Nemo-Instruct-2407,Directly comparable,Accuracy
 Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Phi-3.5-mini-instruct,Directly comparable,Accuracy
 Long Context,RAG,longmemeval,LongMemEval,longmemeval-t8-LongMemEval-S:Qwen2.5-7B,Directly comparable,Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,RAG,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
 Long Context,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 Long Context,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
 Long Context,RAG,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
@@ -393,12 +625,40 @@ Long Context,RAG,trustmem,Mem-α validation set,trustmem-mem-alpha-validation,Di
 Long Context,RAG,trustmem,MemoryAgentBench,trustmem-memoryagentbench,Directly comparable,Task performance score
 Long Context,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 Long Context,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Long Context,SCMemory,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,SCMemory,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 Long Context,SeCom,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Conditionally comparable,Constraint-consistency judge score
 Long Context,SeCom,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Directly comparable,Constraint-consistency judge score
 Long Context,SeCom,locomo_plus,LoCoMo-Plus,locomo_plus-locomo-plus-cognitive-qa,Conditionally comparable,Constraint-consistency judge score
 Long Context,SeCom,locomo_plus,LoCoMo-Plus,locomo_plus-locomo-plus-cognitive-qa,Directly comparable,Constraint-consistency judge score
 Long Context,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Long Context,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Long Context,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+Long Context,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
 Long Context,Sliding Window,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
 Long Context,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
 Long Context,Synthius-Mem,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Conditionally comparable,LLM-Judge
@@ -450,6 +710,9 @@ Mem0,Mem0-Graph,halumem,HaluMem,halumem-long-original,Conditionally comparable,A
 Mem0,Mem0-Graph,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0,Mem0-Graph,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0,Mem0-Graph,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Mem0,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-deepseek-flash,Directly comparable,Accuracy
+Mem0,Mem0-Graph,root_memory,IMLogic,root-memory-imlogic-open-ended-qwen3-7-max,Directly comparable,Accuracy
 Mem0,MemAgent,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Mem0,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 Mem0,MemBook,membook,LongMemEval,membook-longmemeval-qwen3-30b-a3b-instruct-2507,Conditionally comparable,Accuracy
@@ -460,6 +723,8 @@ Mem0,MemOS,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accura
 Mem0,MemOS,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0,MemOS,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0,MemOS,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Mem0,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Mem0,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 Mem0,MemTree,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Mem0,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
@@ -501,6 +766,8 @@ Mem0,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accur
 Mem0,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+Mem0,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Mem0,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Mem0,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
 Mem0,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
 Mem0,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
@@ -513,6 +780,8 @@ Mem0-Graph,MemOS,halumem,HaluMem,halumem-long-original,Conditionally comparable,
 Mem0-Graph,MemOS,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0-Graph,MemOS,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0-Graph,MemOS,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Mem0-Graph,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Mem0-Graph,Memobase,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0-Graph,Memobase,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0-Graph,Memobase,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
@@ -520,6 +789,8 @@ Mem0-Graph,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally compa
 Mem0-Graph,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0-Graph,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 Mem0-Graph,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+Mem0-Graph,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Mem0-Graph,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Mem0-Graph,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
 Mem0-Graph,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Mem0-Graph,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
@@ -540,8 +811,41 @@ MemAgent,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig
 MemBook,MemGPT,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 MemBook,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 MemBook,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,MemoryBank,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,RAG,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 MemGPT,RAG,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,SCMemory,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemGPT,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 MemGPT,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
+MemOS,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-deepseek-chat,Directly comparable,Answer F1; Evidence Recall
 MemOS,MemTree,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig9-gpt-5.4,Directly comparable,Answer F1; Evidence Recall
@@ -567,12 +871,16 @@ MemOS,Supermemory,halumem,HaluMem,halumem-long-original,Conditionally comparable
 MemOS,Supermemory,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 MemOS,Supermemory,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Extraction accuracy; F1; False memory resistance; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall
 MemOS,Supermemory,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+MemOS,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 MemOS,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 MemOS,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 MemOS,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
 MemOS,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 MemOS,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
 MemOS,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+MemOS + RootMem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+MemOS + RootMem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 MemTree,MemoChat,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 MemTree,MemoChat,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 MemTree,MemoryOS,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
@@ -611,10 +919,34 @@ Memobase,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Ac
 Memobase,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 MemoryBank,No History,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 MemoryBank,No History,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+MemoryBank,RAG,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,RAG,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 MemoryBank,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
 MemoryBank,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
 MemoryBank,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
 MemoryBank,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+MemoryBank,SCMemory,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,SCMemory,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+MemoryBank,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 MemoryOS,RAG,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 MemoryOS,RAG,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 MemoryOS,RAG,mragent,LoCoMo,mragent-locomo-claude,Directly comparable,LLM-Judge
@@ -624,17 +956,61 @@ MemoryOS,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Co
 MemoryOS,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 MemoryOS,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 MemoryOS,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+No External Memory,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-3.5-turbo,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+No External Memory,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-gpt-4o,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+No External Memory,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-24b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+No External Memory,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-mistral-8b,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
+No External Memory,RAG,es_memeval,ES-MemEval,es_memeval-dialogue-phi-3-medium,Directly comparable,Emotional Support Rating; Long-term Memory Rating; Observation Recall; Observation Weighted Score; Personalization Rating
 No History,RAG,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 No History,RAG,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
 No History,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy
 No History,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+Query Reconstruction + Reranker,Qwen3-Embedding-4B,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Query Reconstruction + Reranker,Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Query Reconstruction + Reranker,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Query Reconstruction + Reranker,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Query Reconstruction + Reranker,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Query Reconstruction + Reranker,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Qwen3-Embedding-4B,Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Qwen3-Embedding-4B,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Qwen3-Embedding-4B,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Qwen3-Embedding-4B,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Qwen3-Embedding-4B,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 RAG,RMM,rmm,LongMemEval,rmm-longmemeval-main,Directly comparable,Accuracy; Recall@5
 RAG,RMM,rmm,MSC,rmm-msc-main,Directly comparable,BERTScore; METEOR
+RAG,SCMemory,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,SCMemory,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
 RAG,SeCom,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Conditionally comparable,Constraint-consistency judge score
 RAG,SeCom,locomo_plus,LoCoMo,locomo_plus-locomo-factual-qa,Directly comparable,Constraint-consistency judge score
 RAG,SeCom,locomo_plus,LoCoMo-Plus,locomo_plus-locomo-plus-cognitive-qa,Directly comparable,Constraint-consistency judge score
 RAG,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 RAG,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+RAG,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-factual-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-observation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-glm-4-9b-chat,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-gpt-4o-mini,Directly comparable,Memory Accuracy
+RAG,Sliding Window,membench,MemBench,membench-reflective-participation-sub-dataset-1-meta-llama-3.1-8b-instruct,Directly comparable,Memory Accuracy
 RAG,Sliding Window,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
 RAG,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
 RAG,Supermemory,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
@@ -645,6 +1021,23 @@ RAG,TeleMem,telemem,LoCoMo,telemem-locomo,Conditionally comparable,LLM-Judge
 RAG,TeleMem,telemem,ZH-4O,telemem-zh-4o,Conditionally comparable,QA Accuracy
 RAG,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Exact Match
 RAG,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Reranker,RootMem,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Reranker,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Reranker,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Reranker,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+RootMem,Similarity-Linked Graph,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+RootMem,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+RootMem,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+SCMemory,Sliding Window,membench,MemBench,membench-factual-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-factual-observation-1k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-factual-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-factual-participation-10k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-reflective-observation-100k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-reflective-observation-1k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-reflective-participation-100k-qwen2.5-7b-instruct,Directly comparable,Memory Accuracy
+SCMemory,Sliding Window,membench,MemBench,membench-reflective-participation-10k-qwen2.5-7b-instruct,Conditionally comparable,Memory Accuracy
+Similarity-Linked Graph,all-MiniLM-L6-v2,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Similarity-Linked Graph,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 SimpleMem,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 SimpleMem,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Sliding Window,Summarization,synthius_mem,LoCoMo,synthius_mem-controlled-qa,Directly comparable,LLM-Judge
@@ -654,3 +1047,5 @@ Supermemory,Zep,halumem,HaluMem,halumem-long-original,Conditionally comparable,A
 Supermemory,Zep,halumem,HaluMem,halumem-long-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
 Supermemory,Zep,halumem,HaluMem,halumem-medium-original,Conditionally comparable,Accuracy; Hallucination rate; Omission rate
 Supermemory,Zep,halumem,HaluMem,halumem-medium-original,Directly comparable,Accuracy; Hallucination rate; Omission rate
+T-Mem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+all-MiniLM-L6-v2,text-embedding-3-small,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate

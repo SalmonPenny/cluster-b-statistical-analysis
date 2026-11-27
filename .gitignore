@@ -4,3 +4,8 @@ papers/*
 # Cluster B research utilities
 !cluster_b_analysis/src/*.py
 !cluster_b_analysis/tests/test_effect_sizes.py
+!cluster_b_analysis/tests/test_aggregation.py
+!cluster_b_analysis/tests/test_failure_mode_analysis.py
+!cluster_b_analysis/tests/test_pareto.py
+!cluster_b_analysis/tests/test_ranking.py
+!cluster_b_analysis/tests/test_sensitivity.py

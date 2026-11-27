@@ -1,0 +1,22 @@
+panel,scenario,status,systems,first_front,removed_study,removed_benchmark,removed_cohort,reason
+imlogic-conversation,strict,evaluated,11,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",,,,
+imlogic-conversation,"remove contributing study, benchmark or cohort",panel loses all support,,,root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,No aligned replacement or valid pooled estimate
+imlogic-conversation,direct rubric endpoint only,no eligible objective,,,,,,"IMLogic fabrication traps are forced-choice diagnostics, not open-generation hallucination rates"
+biomem-medical,strict,evaluated,4,"[""HMRU-R""]",,,,
+biomem-medical,"remove contributing study, benchmark or cohort",panel loses all support,,,biomem,RealMem,biomem-realmem-medical-question-cohort,No aligned replacement or valid pooled estimate
+biomem-medical,direct rubric endpoint only,no eligible objective,,,,,,Selected BioMem QA scores are memory-performance proxies
+sirin-mem0,strict,evaluated,7,"[""Mem0 | SIRIN Judge | + Both gates"",""Mem0 | SIRIN Judge | + Faithfulness gate"",""Mem0 | SIRIN Probing | + Answerability gate"",""Mem0 | SIRIN Probing | + Both gates"",""Mem0 | – | Memory baseline""]",,,,
+sirin-mem0,"remove contributing study, benchmark or cohort",panel loses all support,,,sirin,LongMemEval,sirin-longmemeval-shared-questions,No aligned replacement or valid pooled estimate
+sirin-mem0,direct rubric endpoint only,"single endpoint, no multiobjective frontier",,,,,,Retains conditional strict unfaithfulness or benchmark-labeled hallucination only
+sirin-lightmem,strict,evaluated,7,"[""LightMem | SIRIN Judge | + Answerability gate"",""LightMem | SIRIN Judge | + Both gates"",""LightMem | SIRIN Judge | + Faithfulness gate"",""LightMem | – | Memory baseline""]",,,,
+sirin-lightmem,"remove contributing study, benchmark or cohort",panel loses all support,,,sirin,LongMemEval,sirin-longmemeval-shared-questions,No aligned replacement or valid pooled estimate
+sirin-lightmem,direct rubric endpoint only,"single endpoint, no multiobjective frontier",,,,,,Retains conditional strict unfaithfulness or benchmark-labeled hallucination only
+halumem-medium,strict,evaluated,6,"[""Medium | MemOS""]",,,,
+halumem-medium,"remove contributing study, benchmark or cohort",panel loses all support,,,halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,No aligned replacement or valid pooled estimate
+halumem-medium,direct rubric endpoint only,"single endpoint, no multiobjective frontier",,,,,,Retains conditional strict unfaithfulness or benchmark-labeled hallucination only
+halumem-long,strict,evaluated,5,"[""Long | MemOS""]",,,,
+halumem-long,"remove contributing study, benchmark or cohort",panel loses all support,,,halumem,HaluMem,halumem-v3-shared-20-user-reference-cohort,No aligned replacement or valid pooled estimate
+halumem-long,direct rubric endpoint only,"single endpoint, no multiobjective frontier",,,,,,Retains conditional strict unfaithfulness or benchmark-labeled hallucination only
+halumem-long,relaxed: include conditionally comparable Memobase,exploratory,6,"[""Long | MemOS""]",,,,Source category nonclosure and method-specific 500-token retrieval cap; no eligibility upgrade
+all,pooled leave-one-study/benchmark-out,unsupported,,,,,,Stage 2B has no compatible pooled comparison
+all,other relaxed cross-protocol candidates,not combined,,,,,,"Different systems, backbones, benchmarks, scoring or cohorts; missing vectors or unresolved compatibility"

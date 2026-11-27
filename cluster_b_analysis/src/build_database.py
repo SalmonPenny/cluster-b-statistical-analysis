@@ -40,6 +40,10 @@ VERSIONS = {
     "locomo_plus": "arXiv:2602.10715v1",
     "realmem": "Findings of ACL 2026 (2026.findings-acl.703)",
     "biomem": "arXiv:2611.13426v1",
+    "membench": "arXiv:2506.21605v1",
+    "es_memeval": "arXiv:2602.01885v1",
+    "root_memory": "arXiv:2606.23283v2",
+    "twist": "arXiv:2609.28575v1",
 }
 ARCHITECTURES = {
     "mem0graph": "Mem0-Graph", "mem0": "Mem0", "amem": "A-Mem", "memgpt": "MemGPT",
@@ -77,6 +81,7 @@ BENCHMARK_NAMES = {
     "msc": "MSC", "multisessionchat": "MSC", "zh4o": "ZH-4O",
     "memoryagentbench": "MemoryAgentBench", "perltqa": "PerLTQA",
     "locomoplus": "LoCoMo-Plus", "memorybench": "MemoryBench", "realmem": "RealMem",
+    "membench": "MemBench", "esmemeval": "ES-MemEval", "imlogic": "IMLogic", "twist": "TWIST",
 }
 
 

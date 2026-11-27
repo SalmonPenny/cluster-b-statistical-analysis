@@ -3,44 +3,62 @@ strict,1,MemGuard
 strict,1,MRAgent
 strict,1,RMM
 strict,1,A-Mem
+strict,1,EverMemOS
+strict,1,EverMemOS + RootMem
+strict,1,Generative Agents
 strict,1,Graph Memory
 strict,1,HMRU
 strict,1,LangMem
 strict,1,LD-Agent
 strict,1,LightMem
+strict,1,LightMem + RootMem
 strict,1,Long Context
 strict,1,Mem0
 strict,1,Mem0-Graph
+strict,1,MemGPT
 strict,1,Memobase
 strict,1,MemoryBank
 strict,1,MemoryOS
 strict,1,MemOS
+strict,1,MemOS + RootMem
 strict,1,MemTree
 strict,1,MemZero
+strict,1,No External Memory
 strict,1,No History
 strict,1,RAG
+strict,1,SCMemory
 strict,1,SeCom
 strict,1,Sliding Window
 strict,1,Summarization
 strict,1,Supermemory
+strict,1,T-Mem
+strict,1,TACITREE
 strict,1,Zep
-strict,2,TRUSTMEM
-strict,2,Mem-T
-strict,2,Mem-α
-strict,3,MEM1
-strict,3,MemAgent
-strict,4,AtomMem
-strict,5,Cognee
-strict,6,GAM
-strict,7,Letta
-strict,8,MOOM
-strict,9,MemBook
-strict,10,MemGPT
+strict,2,all-MiniLM-L6-v2
+strict,2,BM25
+strict,2,Entity-Linked Graph
+strict,2,Hierarchical Cluster-Tree
+strict,2,Query Reconstruction + Reranker
+strict,2,Qwen3-Embedding-4B
+strict,2,Reranker
+strict,2,RootMem
+strict,2,Similarity-Linked Graph
+strict,2,text-embedding-3-small
+strict,3,TRUSTMEM
+strict,3,Mem-T
+strict,3,Mem-α
+strict,4,MEM1
+strict,4,MemAgent
+strict,5,AtomMem
+strict,6,Cognee
+strict,7,GAM
+strict,8,Letta
+strict,9,MOOM
+strict,10,MemBook
 strict,11,MemoChat
-strict,12,No External Memory
-strict,13,SimpleMem
-strict,14,Synthius-Mem
-strict,15,TeleMem
+strict,12,SimpleMem
+strict,13,Synthius-Mem
+strict,14,TeleMem
 relaxed,1,MemBook
 relaxed,1,MemGuard
 relaxed,1,MRAgent
@@ -51,13 +69,17 @@ relaxed,1,TRUSTMEM
 relaxed,1,A-Mem
 relaxed,1,AtomMem
 relaxed,1,Cognee
+relaxed,1,EverMemOS
+relaxed,1,EverMemOS + RootMem
 relaxed,1,GAM
+relaxed,1,Generative Agents
 relaxed,1,Graph Memory
 relaxed,1,HMRU
 relaxed,1,LangMem
 relaxed,1,LD-Agent
 relaxed,1,Letta
 relaxed,1,LightMem
+relaxed,1,LightMem + RootMem
 relaxed,1,Long Context
 relaxed,1,Mem-T
 relaxed,1,Mem-α
@@ -71,15 +93,29 @@ relaxed,1,MemoChat
 relaxed,1,MemoryBank
 relaxed,1,MemoryOS
 relaxed,1,MemOS
+relaxed,1,MemOS + RootMem
 relaxed,1,MemTree
 relaxed,1,MemZero
 relaxed,1,No External Memory
 relaxed,1,No History
 relaxed,1,RAG
+relaxed,1,SCMemory
 relaxed,1,SeCom
 relaxed,1,SimpleMem
 relaxed,1,Sliding Window
 relaxed,1,Summarization
 relaxed,1,Supermemory
+relaxed,1,T-Mem
+relaxed,1,TACITREE
 relaxed,1,Zep
-relaxed,2,MOOM
+relaxed,2,all-MiniLM-L6-v2
+relaxed,2,BM25
+relaxed,2,Entity-Linked Graph
+relaxed,2,Hierarchical Cluster-Tree
+relaxed,2,Query Reconstruction + Reranker
+relaxed,2,Qwen3-Embedding-4B
+relaxed,2,Reranker
+relaxed,2,RootMem
+relaxed,2,Similarity-Linked Graph
+relaxed,2,text-embedding-3-small
+relaxed,3,MOOM
