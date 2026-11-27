@@ -97,6 +97,9 @@ membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-a,Table 4a,F1,5,no
 membook,HaluMem,membook:HaluMem,membook-halu-long-ablation-b,Table 4b,Accuracy,7,no
 membook,HaluMem,membook:HaluMem,membook-halu-medium-ablation-a,Table 4a,F1,5,no
 membook,HaluMem,membook:HaluMem,membook-halu-medium-ablation-b,Table 4b,Accuracy,7,no
+memgpt,MSC,memgpt-msc-dmr-items,memgpt-msc-dmr-gpt-3-5-turbo,Table 2,Accuracy; ROUGE-L Recall,2,yes
+memgpt,MSC,memgpt-msc-dmr-items,memgpt-msc-dmr-gpt-4,Table 2,Accuracy; ROUGE-L Recall,2,yes
+memgpt,MSC,memgpt-msc-dmr-items,memgpt-msc-dmr-gpt-4-turbo,Table 2,Accuracy; ROUGE-L Recall,2,yes
 memguard,HaluMem,halumem-v3-shared-20-user-reference-cohort,memguard-halu-medium-gpt-4-1-mini,Table 1,Accuracy; Extraction accuracy; F1; Hallucination rate; Omission rate; Recall; Target precision; Weighted recall,2,no
 memguard,LoCoMo,memguard-locomo-test-reference-cohort,memguard-locomo-gpt-4-1-mini,Table 2,Accuracy; Average retrieved tokens,3,yes
 memguard,LoCoMo,memguard-locomo-test-reference-cohort,memguard-locomo-gpt-4o-mini,Table 2,Accuracy; Average retrieved tokens,3,yes

@@ -3,6 +3,7 @@ strict,1,MemGuard
 strict,1,MRAgent
 strict,1,RMM
 strict,1,A-Mem
+strict,1,Conversation Summary
 strict,1,EverMemOS
 strict,1,EverMemOS + RootMem
 strict,1,Generative Agents
@@ -51,14 +52,16 @@ strict,4,MEM1
 strict,4,MemAgent
 strict,5,AtomMem
 strict,6,Cognee
-strict,7,GAM
-strict,8,Letta
-strict,9,MOOM
-strict,10,MemBook
-strict,11,MemoChat
-strict,12,SimpleMem
-strict,13,Synthius-Mem
-strict,14,TeleMem
+strict,7,Flat History
+strict,8,GAM
+strict,9,Letta
+strict,10,MOOM
+strict,11,MemBook
+strict,12,MemoChat
+strict,13,Oracle Agent Memory
+strict,14,SimpleMem
+strict,15,Synthius-Mem
+strict,16,TeleMem
 relaxed,1,MemBook
 relaxed,1,MemGuard
 relaxed,1,MRAgent
@@ -69,6 +72,7 @@ relaxed,1,TRUSTMEM
 relaxed,1,A-Mem
 relaxed,1,AtomMem
 relaxed,1,Cognee
+relaxed,1,Conversation Summary
 relaxed,1,EverMemOS
 relaxed,1,EverMemOS + RootMem
 relaxed,1,GAM
@@ -118,4 +122,6 @@ relaxed,2,Reranker
 relaxed,2,RootMem
 relaxed,2,Similarity-Linked Graph
 relaxed,2,text-embedding-3-small
-relaxed,3,MOOM
+relaxed,3,Flat History
+relaxed,3,Oracle Agent Memory
+relaxed,4,MOOM

@@ -57,3 +57,7 @@ All 31 tests passed, including all 24 earlier tests. The run produced 365 pair-t
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+Three additional dominance relationships survive the five tolerance settings, for 39 robust dominance relationships across the nine reviewed panels. All previous findings reproduce. [Stage 1E report](stage1e_report.md)

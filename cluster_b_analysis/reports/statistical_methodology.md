@@ -6,7 +6,7 @@ The estimand should be explicit for each result. A complete-system contrast asks
 
 | Method | Formulation and interpretation | Requirements and present use |
 |---|---|---|
-| Within-block scores and ranks | Order scores after orienting the metric. Use midranks for exact ties and keep score differences alongside ranks. An average rank is an explicit average over complete, commensurable blocks. | Appropriate descriptively within documented blocks. Reporting a rank across different baseline sets rewards and penalizes systems according to who else was included. An aggregated rank requires a target task distribution, comparable eligibility and a principled missingness treatment. |
+| Within-block scores and ranks | Order scores after orienting the metric. Use competition ranks for exact ties (for example, 1, 1, 3) and keep score differences alongside ranks. An average rank is an explicit average over complete, commensurable blocks. | Appropriate descriptively within documented blocks. Reporting a rank across different baseline sets rewards and penalizes systems according to who else was included. An aggregated rank requires a target task distribution, comparable eligibility and a principled missingness treatment. |
 | Matched baseline differences | For a benefit measure on a proportion scale, report Δ = p_method − p_baseline, with percentage points as the presentation unit. For a genuine error complement, relative error reduction is Δ/(1 − p_baseline) when the denominator is positive. For a directly labeled bad-event rate, use (e_baseline − e_method)/e_baseline when defined. | Appropriate for verified matched protocols. State baseline, absolute scores, task and scorers. Error reduction in judge incorrectness has a different meaning from reduction in hallucination. Avoid computing either formulation for metric scales without the required semantics. |
 | Pareto analysis | Within a protocol, A dominates B when A is at least as good on every included objective and strictly better on one, after orienting directions. | Descriptively possible for a joint accuracy/resource or correctness/hallucination/omission panel with matched, independently eligible rows. Token units and aggregation scope must agree. A Pareto front based on printed means has unknown sampling stability. |
 | Normalized composites | A weighted score ∑ w_j f_j(x_j) requires explicit orientations, scale transforms f_j, weights summing to one and aligned meaning. Percentage-to-proportion is merely a unit conversion. | Defer cross-benchmark composites. Baseline standardization changes the target when baselines differ and min–max scaling changes with the candidate set. If criteria become defensible, vary normalization and weights and publish the raw outcome vector. |
@@ -59,3 +59,7 @@ The strict label network is larger, but the batch establishes no additional inde
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+The final batch extends descriptive matched effects and Pareto evidence. No aligned cross-study replication was established for cohort pooling or probabilistic architecture ranking. [Stage 1E report](stage1e_report.md)

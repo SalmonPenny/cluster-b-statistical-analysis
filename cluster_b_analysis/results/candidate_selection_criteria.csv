@@ -1,0 +1,9 @@
+criterion_id,criterion,operation
+C1,Identity and eligibility,Use paper-specific version and configuration IDs. Use directly comparable verified original non-excluded pairs for directional claims. Keep conditional and ineligible evidence as context.
+C2,Outcome relevance,Judge direct hallucination and strict unfaithfulness separately. Retain denominator and rubric. Classify task-specific diagnostics separately from broad memory-performance proxies.
+C3,Local recommendation,Require a favorable matched result on a relevant endpoint alongside review of comparator choice and available competing objectives. Use robustness and reported paired uncertainty when available and record when they are absent.
+C4,General-purpose recommendation,Require compatible independent replication across meaningfully distinct workloads and evidence on both direct harm and memory utility. Count each dependent cohort once and keep linked splits nested.
+C5,Specialized and trade-off recommendations,Allow specialized hypotheses from a single well-documented protocol or cohort. Preserve negative objectives and reported threshold or weight sensitivity. Coverage loss can limit conditional unfaithfulness benefits.
+C6,Underperformance and missingness,Use consistent local disadvantage only within a specified panel or repeated like-for-like comparisons. Report unsupported or unmatched outcomes explicitly and assign no performance value to gaps.
+C7,Head-to-head panel selection,Choose direct harm and selective faithfulness panels and a controlled failure-mode protocol for compatible scoring and meaningful interventions independently of winner identity. Include complete eligible competitor sets for the chosen scopes.
+C8,No pooled ranking,Do not combine effect sizes across incompatible benchmarks. Count panels and conservative cohort labels as coverage descriptors. Use no numerical evidence-strength score or architecture leaderboard.

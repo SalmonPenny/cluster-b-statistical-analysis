@@ -208,6 +208,9 @@ Cognee,SimpleMem,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Cond
 Cognee,SimpleMem,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
 Cognee,Zep,agent_native_memory,LoCoMo,agent_native_memory-locomo-fig7,Conditionally comparable,Answer F1; Exact Match
 Cognee,Zep,agent_native_memory,LongMemEval,agent_native_memory-longmemeval-fig7,Conditionally comparable,LLM-Judge; ROUGE-L F1; ROUGE-L Recall; Substring EM
+Conversation Summary,MemGPT,memgpt,MSC,memgpt-msc-dmr-gpt-3-5-turbo,Directly comparable,Accuracy; ROUGE-L Recall
+Conversation Summary,MemGPT,memgpt,MSC,memgpt-msc-dmr-gpt-4,Directly comparable,Accuracy; ROUGE-L Recall
+Conversation Summary,MemGPT,memgpt,MSC,memgpt-msc-dmr-gpt-4-turbo,Directly comparable,Accuracy; ROUGE-L Recall
 Entity-Linked Graph,Hierarchical Cluster-Tree,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Entity-Linked Graph,Query Reconstruction + Reranker,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 Entity-Linked Graph,Qwen3-Embedding-4B,root_memory,IMLogic,root-memory-imlogic-memory-level-top30,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
@@ -251,6 +254,7 @@ EverMemOS + RootMem,MemOS,root_memory,IMLogic,root-memory-imlogic-conversation-l
 EverMemOS + RootMem,MemOS + RootMem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 EverMemOS + RootMem,T-Mem,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
 EverMemOS + RootMem,TACITREE,root_memory,IMLogic,root-memory-imlogic-conversation-level-full,Directly comparable,Accuracy; Fabrication trap rate; Generic trap rate; Preference trap rate
+Flat History,Oracle Agent Memory,oracle_agent,ChromAtlas-ND,oracle-agent-chromatlas-nd-80turn,Conditionally comparable,Estimated input tokens at turn 80; Pairwise judged turn wins
 GAM,LangMem,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,Mem0,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy
 GAM,MemBook,membook,LongMemEval,membook-longmemeval-gpt-4o-mini,Conditionally comparable,Accuracy

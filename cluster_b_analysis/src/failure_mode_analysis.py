@@ -38,6 +38,8 @@ def failure_mode(benchmark, task, metric):
             "open domain": FailureMode("Dialogue grounding and external knowledge", "Open-domain"),
             "adversarial": FailureMode("False-premise rejection", "Adversarial"),
         }.get(task_key)
+    if benchmark == "MSC" and task_key == "deep memory retrieval" and metric_key in {"accuracy", "rouge-l recall"}:
+        return FailureMode("Recall of explicit facts from prior sessions", "Deep memory retrieval")
     if benchmark == "LoCoMo-Plus" and task_key == "cognitive awareness" and metric_key == "constraint-consistency judge score":
         return FailureMode("Latent constraint application", "Causal, state, goal and value constraints")
     if benchmark == "LongMemEval":

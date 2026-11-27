@@ -48,3 +48,7 @@ All 24 tests passed, including all 19 earlier tests. Synthetic fixtures verified
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+Three matched MemGPT reader panels raise the total to nine panels, 46 vectors and 131 within-panel pairs. All prior results reproduce. [Stage 1E report](stage1e_report.md)

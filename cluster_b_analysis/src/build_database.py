@@ -44,6 +44,10 @@ VERSIONS = {
     "es_memeval": "arXiv:2602.01885v1",
     "root_memory": "arXiv:2606.23283v2",
     "twist": "arXiv:2609.28575v1",
+    "locco": "Findings of ACL 2025 (2025.findings-acl.1014)",
+    "memgpt": "arXiv:2310.08560v2",
+    "memoryrewardbench": "arXiv:2601.11969v2",
+    "oracle_agent": "arXiv:2607.13157v1",
 }
 ARCHITECTURES = {
     "mem0graph": "Mem0-Graph", "mem0": "Mem0", "amem": "A-Mem", "memgpt": "MemGPT",
@@ -61,6 +65,7 @@ CATEGORIES = {
     "MemBook": "2. Dedicated Memory Architecture",
     "MRAgent": "2. Dedicated Memory Architecture",
     "MemGPT": "2. Dedicated Memory Architecture",
+    "Oracle Agent Memory": "2. Dedicated Memory Architecture",
     "RMM": "4. Memory Maintenance & Quality Management",
     "TeleMem": "Screening inclusion only; multimodal scope flag in RQ2",
     "Synthius-Mem": "2. Dedicated Memory Architecture",
@@ -271,6 +276,9 @@ def compare_pair(left, right):
         units = [row["source_row"].partition(" / ")[0] for row in pair]
         if ("Summary" in units[0]) != ("Summary" in units[1]):
             return "Incompatible", "evidence granularity", "Recall uses different annotated units for summary and turn-level retrieval."
+    if paper == "memgpt" and left["table_id"] == "Table 2":
+        return ("Directly comparable", "matched backbone systems",
+                "Shared DMR questions, reader and scoring procedure. Memory access and source evidence differ.")
     if paper == "agent_native_memory" and left["table_id"].startswith("Figure 9"):
         return "Directly comparable", "matched backbone systems", "Compare the evaluated systems under the same named answer backbone and metric. Other backbones reuse the workload."
     if "ablation" in left["role"].casefold() or "ablation" in right["role"].casefold():

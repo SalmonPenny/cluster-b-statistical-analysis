@@ -9,3 +9,6 @@ papers/*
 !cluster_b_analysis/tests/test_pareto.py
 !cluster_b_analysis/tests/test_ranking.py
 !cluster_b_analysis/tests/test_sensitivity.py
+!cluster_b_analysis/tests/test_candidate_selection.py
+
+/cluster_b_analysis/*.zip

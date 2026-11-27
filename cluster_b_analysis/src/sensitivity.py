@@ -144,11 +144,16 @@ def load_panels(rows):
         spec = specifications[panel]
         if (row["paper_id"], row["source_table"], row["protocol_block"]) != (spec.paper, spec.table, spec.block):
             raise ValueError(f"Unmatched panel source {panel}")
-        if name in panels[panel] or set(json.loads(row["units"]).values()) != {"percent"}:
-            raise ValueError(f"Duplicate vector or incompatible units {panel}")
+        units = json.loads(row["units"])
         scores = json.loads(row["scores_in_original_units"])
+        if (name in panels[panel] or units.keys() != scores.keys()
+                or set(units.values()) - {"percent", "proportion"}):
+            raise ValueError(f"Duplicate vector or incompatible units {panel}")
         orient(scores, directions[panel])
-        panels[panel][name] = scores
+        panels[panel][name] = {
+            key: read_score(value) * (100 if units[key] == "proportion" else 1)
+            for key, value in scores.items()
+        }
         metadata[panel,name] = row
     for panel, vectors in panels.items():
         conditions = {(metadata[panel,n]["benchmark"], metadata[panel,n]["benchmark_version"],
@@ -271,7 +276,9 @@ def run(root=ROOT):
         else:
             evidence.append({"panel":panel,"scenario":"direct rubric endpoint only","status":"no eligible objective",
                              "reason":("IMLogic fabrication traps are forced-choice diagnostics, not open-generation hallucination rates"
-                                       if panel == "imlogic-conversation" else "Selected BioMem QA scores are memory-performance proxies")})
+                                       if panel == "imlogic-conversation" else
+                                       "Selected MemGPT DMR scores are memory-performance proxies"
+                                       if panel.startswith("memgpt-") else "Selected BioMem QA scores are memory-performance proxies")})
         if panel.startswith("sirin"):
             for n,v in vectors.items():
                 source_ids = ids(n)

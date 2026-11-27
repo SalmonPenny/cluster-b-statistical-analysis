@@ -100,3 +100,7 @@ Eight papers remain eligible for detailed extraction: MemBench, LOCCO, ES-MemEva
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+The last four publications are assessed and all 24 extraction dispositions are complete. The new sources add 505 verified observations and six eligible matched contrasts. [Stage 1E report](stage1e_report.md)

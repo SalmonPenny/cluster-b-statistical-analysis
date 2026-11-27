@@ -54,3 +54,11 @@ The existing Stage 2A pipeline ran against the 16-paper evidence base without ch
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+The final reproducible table contains 4,370 eligible matched contrasts, including 713 baseline-relative contrasts. All six additions come from MemGPT Table 2. [Stage 1E report](stage1e_report.md)
+
+## Stage 3 clarification
+
+The strict Stage 2A estimand excludes 44 directly comparable source-level ablation pairs because they contain a repeated control anchor: RMM Table 2 (24), MemBook Table 4a (8) and Table 4b (12). The source-level protocol assessment is preserved. These exclusions indicate an anchor reuse decision and provide no evidence of missing values or poor performance. Reusing one canonical reference for multiple descriptive ablations would require explicit alias and dependence modelling. [Mathematical audit](final_mathematical_audit.md)

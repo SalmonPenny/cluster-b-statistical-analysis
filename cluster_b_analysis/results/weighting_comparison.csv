@@ -156,6 +156,7 @@ stratum,benchmark,task,metric,failure_mode,target_architecture,reference_archite
 18eb2bc1295ab3a9b13ef0fba3080a01dbcee48492e169fe7d5730e9e5bd96dc,LongMemEval,Single,Served accuracy,Single-session recall,SimpleMem,SimpleMem,percentage points,1,1,1,1,14.9,14.9,14.9,14.9
 18f3bc2eac9983cc47bbb857905b53a282fad1a81d203054667ab219c347ec0a,MSC,Response generation,BERTScore,,RMM,RAG,percentage points,1,1,1,1,3.8,3.8,3.8,3.8
 192aea03b0148637a217e22b239afe6dc812f36f72f56115f0907c70406c7970,MemBench,multi-hop,Memory Accuracy,Multi-hop evidence synthesis,MemoryBank,Generative Agents,percentage points,1,1,1,1,2.5,2.5,2.5,2.5
+194755f2e09a5505c43b4de6fa3024dd760d1ea47fa76d9c2c18b6ef5b7ebaec,MSC,Deep memory retrieval,Accuracy,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,60.4,60.4,60.4,60.4
 197344ed0740edd40d5e24197674cf95a8d513b926a9c12958cc4a69bc9d5af5,RealMem,Ranked session retrieval,NDCG@20,Evidence retrieval,Mem0,Graph Memory,percentage points,1,1,1,1,-4.28,-4.28,-4.28,-4.28
 19fc7f45dada01f17c9293806fe516951db49ea8855cc2c54b0ced1c24d234bc,MemoryAgentBench,TREC-C,Task performance score,,TRUSTMEM,Mem-T,score,1,1,1,1,10.0,10.0,10.0,10.0
 19fedcda7ac01c70b898f289a5f90d3f837f14cbf326454512e85f82f7b6a45c,MemBench,single-hop,Memory Accuracy,Single-hop recall,SCMemory,Long Context,percentage points,1,1,1,1,-25.0,-25.0,-25.0,-25.0
@@ -673,6 +674,7 @@ stratum,benchmark,task,metric,failure_mode,target_architecture,reference_archite
 681ccd0f9a9c59549f4bbf1537068435b37c348fde7ef1133369d985e7f78cb2,RealMem,Multi-session,QA Score,Cross-session reasoning,RAG,MemZero,percentage points,1,1,1,1,-1.6,-1.6,-1.6,-1.6
 682f2d93e9a9812ff83fe754daca895a4291dda609cb644f71383dd4a390818e,IMLogic,Conversation-level MCQ,Preference trap rate,Semantic deflection by recalled preferences,MemOS,A-Mem,percentage points,1,1,1,1,1.49,1.49,1.49,1.49
 68388aa5c4974deab60bae4b448374fa7c2a188c657c2271402505f9ed4b9b42,ES-MemEval,dialogue-generation,Emotional Support Rating,,Long Context,No External Memory,score,1,1,1,1,2.21,2.21,2.21,2.21
+684e753eb445dca53fdda524b6101e435da5db52c2e75f9c2c0b359bdcce23a5,MSC,Deep memory retrieval,ROUGE-L Recall,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,46.8,46.8,46.8,46.8
 685f45a1f7737c1f3818995231670ac21ac40cab676a5f96a6c908739c70dfb9,RealMem,Single-session,QA Score,Single-session reasoning,LightMem,A-Mem,percentage points,1,1,1,1,10.5,10.5,10.5,10.5
 688820e029fc20e67d06bbf0dd3dab53d41043c75344f5a3c771a55aed4ba16a,LoCoMo,overall,Answer F1,Factual recall and response revision,RAG,RAG,percentage points,1,1,1,1,-0.07,-0.07,-0.07,-0.07
 688ae5b918b9c9cfebee95ac1e03acbe43a98c5d8b1e3213e6bc265b25479945,RealMem,Single-session,Memory Recall,Evidence retrieval,LightMem,RAG,percentage points,1,1,1,1,-14.3,-14.3,-14.3,-14.3
@@ -1269,6 +1271,7 @@ cb2ff8448384049de9b8d9adc1792ccc0069ce1222698a2f779eebe69f030577,MemBench,compar
 cb383f8134898d44f887ba07dd2af974cb2ffb80e0f72431b4fd76fd102b10cf,MemBench,knowledge-update,Memory Accuracy,Memory updating,MemGPT,Generative Agents,percentage points,1,1,1,1,10.0,10.0,10.0,10.0
 cb4358eddd1b9a4ba7f04fa814b8db6430d4caf9652da2f8d376be6df9d9a0e1,RealMem,Dynamic incremental,QA Score,Project-state accumulation,RAG,MemZero,percentage points,1,1,1,1,0.98,0.98,0.98,0.98
 cb61acd9ea48fab229077f45dd65d3d0a96557945f18bedaa5b87001ab1c9448,MemBench,multi-hop,Memory Accuracy,Multi-hop evidence synthesis,Generative Agents,Long Context,percentage points,1,1,1,1,-12.5,-12.5,-12.5,-12.5
+cb6323e84e1f1ed74c09032180e54f712800502a57ff9986bdb16d51423f4d72,MSC,Deep memory retrieval,Accuracy,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,58.1,58.1,58.1,58.1
 cb76af6d7ed95e8ff9c88b44f0a3bf4e647305f0adef0c93a4b105369e1daad9,LoCoMo,Open-domain,Accuracy,Dialogue grounding and external knowledge,MemGuard,A-Mem,percentage points,1,1,1,1,13.2,13.2,13.2,13.2
 cbbcf3ef3bdc54750359d433db2941219fc4acbc76afcf5fcc56d248badddc92,IMLogic,Conversation-level MCQ,Preference trap rate,Semantic deflection by recalled preferences,Mem0-Graph,A-Mem,percentage points,1,1,1,1,6.5,6.5,6.5,6.5
 cbd930a4289bc935189a8158d946ba1b04755ba0914aceb574bbe414dfd26af0,RealMem,Dynamic incremental,QA Score,Project-state accumulation,RAG,MemZero,percentage points,1,1,1,1,13.3,13.3,13.3,13.3
@@ -1354,6 +1357,7 @@ d9441d730a7da72bb6f709799b4632cf28e1040711e6ff7f62cf1387b40fe916,ES-MemEval,dial
 d967870827aac2b07c3aaa181c67340a6fdeead0e9c185a3760e8e720784defe,LongMemEval,Single,Served accuracy,Single-session recall,SimpleMem,SimpleMem,percentage points,1,1,1,1,14.4,14.4,14.4,14.4
 d9bc1e875d8ad66c318b44b85811878eb94e1e904ff060cfc77f5d7335f98973,LoCoMo,adversarial,Constraint-consistency judge score,False-premise rejection,Mem0,RAG,percentage points,1,1,1,1,-29.23,-29.23,-29.23,-29.23
 d9e9dadc2db684ed049e162047027e696c5a01e27fa1bd050ea94fcf97d52f9d,RealMem,Multi-session,Memory Recall,Evidence retrieval,RAG,A-Mem,percentage points,1,1,1,1,3.6,3.6,3.6,3.6
+d9ed382b292402bf787187394b65fd959dbe247317d2532d996881c843fe475f,MSC,Deep memory retrieval,ROUGE-L Recall,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,51.8,51.8,51.8,51.8
 da52acb3e4eac20cb69280c6de3421792c1b7b24f61e94a3096588690286dd60,ES-MemEval,abstention,Answer F1,Abstention under unavailable evidence,RAG,Long Context,percentage points,1,1,1,1,2.4,2.4,2.4,2.4
 da670786e7f248b9e5bd049bc2d3662bc85b1f185c443acf85571fa1f26afb7f,ES-MemEval,abstention,LLM-Judge,Abstention under unavailable evidence,RAG,Long Context,score,1,1,1,1,0.23,0.23,0.23,0.23
 dade4a4a4ddfe4bff1c3edb7c469503202fd4a9e729d4839f1a56d9a0ef77167,IMLogic,Open-ended conversation QA,Accuracy,Implicit logical memory utilization,LightMem,Mem0-Graph,percentage points,1,1,1,1,1.35,1.35,1.35,1.35
@@ -1364,6 +1368,7 @@ dbd99efd258fb9c1e46427a9b743b80359052e9320f4775c9c13bcda090e5f67,IMLogic,Memory-
 dbecd2271f6c080b2a405b15cb078da675abcdf17e5f1e4190c2145afcbc9d0b,IMLogic,Conversation-level MCQ,Generic trap rate,Failure to personalize from evidence,Mem0-Graph,A-Mem,percentage points,1,1,1,1,-5.77,-5.77,-5.77,-5.77
 dc29eeb60428cc4163aea1aea7e9d71dcea5600fed5d391cb5d34601d26b791e,IMLogic,Memory-level MCQ,Preference trap rate,Semantic deflection by recalled preferences,Query Reconstruction + Reranker,Similarity-Linked Graph,percentage points,1,1,1,1,1.85,1.85,1.85,1.85
 dc40af1f8779802987b5794e805bd4be698f204f164bacc9686b6e8ff5c46f00,MSC,Response generation,BERTScore,,RMM,RAG,percentage points,1,1,1,1,6.3,6.3,6.3,6.3
+dc4289a4660bd3fbeadd876bea69bbf9528a25dc749d2863a84aa9979ebe2197,MSC,Deep memory retrieval,ROUGE-L Recall,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,23.5,23.5,23.5,23.5
 dc69d67e08a3835c95591604fe418da8f94b96afc73eafb95302722bdae54434,MemBench,post-processing,Memory Accuracy,Post-processing of retrieved information,SCMemory,MemGPT,percentage points,1,1,1,1,7.5,7.5,7.5,7.5
 dc96f467a9b2fc48b888436f2da966ce938a7a0033da63064905885c460bf190,RealMem,Single-session,QA Score,Single-session reasoning,RAG,A-Mem,percentage points,1,1,1,1,-4.8,-4.8,-4.8,-4.8
 dc9cfc0c266cc35a0dfa4eda3ce79e8b2307cc2f64193a98037d40f80da1e916,HaluMem,Question answering,Hallucination rate,Benchmark-defined incorrect or fabricated answers,Zep,Supermemory,percentage points,1,1,1,1,0.32,0.32,0.32,0.32
@@ -1504,6 +1509,7 @@ f06186b510ab412bd367aeca6f56e73a7a99af3dc695f9a38dae5823f4cdf7fc,RealMem,Multi-s
 f06362637e4d4899a45ab2d7fc642c59746b859da8a0bb6d51e4b047d71f26f3,LongMemEval,Overall,Relative generator completion token change,,Mem0,Mem0,relative percent,1,1,1,1,0.0,0.0,0.0,0.0
 f097d2b0ce3e788e0211ad3fc483d93d764f65f3b6a3e1dc4f850e0103f7a4cf,RealMem,Single-session,Memory Recall,Evidence retrieval,LightMem,RAG,percentage points,1,1,1,1,-28.2,-28.2,-28.2,-28.2
 f0a3905952547dec41a7b25d70d79a54a79e8cba8824ad35330fe4d8912237b0,RealMem,Multi-session,QA Score,Cross-session reasoning,MemZero,A-Mem,percentage points,1,1,1,1,-7.8,-7.8,-7.8,-7.8
+f0e0b869bde134c85fec1b17666493ad05d646a6f90182919f329042c64605d0,MSC,Deep memory retrieval,Accuracy,Recall of explicit facts from prior sessions,MemGPT,Conversation Summary,percentage points,1,1,1,1,28.2,28.2,28.2,28.2
 f1262e26dff33b90a02ae32dae15edc604bce52e2ba322a2a2f605e6cea7a5dd,RealMem,Dynamic incremental,Memory Recall,Evidence retrieval,LightMem,RAG,percentage points,1,1,1,1,-14.5,-14.5,-14.5,-14.5
 f137792df4c2d0c2d5453be20f2d0b6dd3d37d641bc2ae5297434594549cc9fb,LongMemEval,Overall,Served accuracy,,LightMem,LightMem,percentage points,1,1,1,1,-0.2,-0.2,-0.2,-0.2
 f15f666edf889f09941a920440da41fc67be7f781c560ea3df43321d64b3ab8a,ES-MemEval,conflict-detection,BERTScore,Conflicting-memory detection,RAG,Long Context,percentage points,1,1,1,1,3.9,3.9,3.9,3.9

@@ -1,0 +1,9 @@
+# Tested with Python 3.12
+numpy==2.3.5
+matplotlib==3.10.8
+networkx==3.7
+PyMuPDF==1.26.6
+ipykernel==7.4.0
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.2

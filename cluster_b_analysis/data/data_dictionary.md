@@ -8,7 +8,7 @@
 |---|---|
 | `observation_id` | Stable hash of paper ID, physical PDF page and the table, row and column locator. Two printed locations get different IDs even if they report the same result. |
 | `paper_id`, `paper_title`, `publication_id`, `pdf_filename`, `publication_version`, `source_url` | Local manifest key, title, official publication identifier, local file, version of the local file and source landing page. Physical pages are one-based. |
-| `pdf_page`, `table_id`, `source_row`, `source_column` | Source locator. Grouped headers are joined by `|` or `/`. Figure labels identify explicitly printed values. |
+| `pdf_page`, `table_id`, `source_row`, `source_column` | Source locator. Grouped headers are joined by `|` or `/`. Figure labels identify explicitly printed values. Supplementary digitization from unlabeled plots appears in the raw table only, with the estimate, coordinate method and readability noted. A graphically hidden mark has no point estimate. |
 | `architecture`, `architecture_version`, `rq2_category`, `mechanisms`, `role` | Harmonized display label, reported implementation/version if known, existing RQ2 assignment where available, mechanisms and source role. The TeleMem value records its existing scope flag. Same name can denote different implementations. |
 | `backbone`, `judge`, `judging_protocol` | Reported language models, scoring model if used and scoring procedure. Distinct models can build, retrieve, generate and judge. |
 | `retrieval_budget`, `memory_budget`, `context_budget` | Documented settings. A reported average history length differs from a model context-window limit. |
@@ -24,6 +24,8 @@
 | `comparability_status`, `limitations`, `source_details` | Highest available within-block pair status for the observation, explanatory caveats, and additional reported fields represented as a JSON object, such as retriever, model size, and basis of sample size. The actual pair classification is in `comparability.csv`. |
 
 The continuation stores the authors’ per-cell display values in `score_as_printed` when available. An out-of-range printed percent with an explicit discrepancy and synthesis exclusion retains its raw score and has no normalized score. Paired interval endpoints apply to the listed effect estimate and unit. Additional interval-only evidence and source note fields appear in `source_details`.
+
+Stage 1E preserves reward-model evaluations as a separate evaluand. A verified reward-model cell can carry a synthesis exclusion even when the reward configuration and score are fully identified.
 
 Blank CSV cells represent unreported, unavailable or inapplicable fields. No imputation is performed. Uncertainties and sample sizes apply to a row only at the scope described by the paper and any recorded note.
 

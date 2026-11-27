@@ -1,4 +1,13 @@
 panel,scenario,status,systems,first_front,removed_study,removed_benchmark,removed_cohort,reason
+memgpt-msc-dmr-gpt-3-5-turbo,strict,evaluated,2,"[""GPT-3.5 Turbo / + MemGPT""]",,,,
+memgpt-msc-dmr-gpt-3-5-turbo,"remove contributing study, benchmark or cohort",panel loses all support,,,memgpt,MSC,memgpt-msc-dmr-items,No aligned replacement or valid pooled estimate
+memgpt-msc-dmr-gpt-3-5-turbo,direct rubric endpoint only,no eligible objective,,,,,,Selected MemGPT DMR scores are memory-performance proxies
+memgpt-msc-dmr-gpt-4,strict,evaluated,2,"[""GPT-4 / + MemGPT""]",,,,
+memgpt-msc-dmr-gpt-4,"remove contributing study, benchmark or cohort",panel loses all support,,,memgpt,MSC,memgpt-msc-dmr-items,No aligned replacement or valid pooled estimate
+memgpt-msc-dmr-gpt-4,direct rubric endpoint only,no eligible objective,,,,,,Selected MemGPT DMR scores are memory-performance proxies
+memgpt-msc-dmr-gpt-4-turbo,strict,evaluated,2,"[""GPT-4 Turbo / + MemGPT""]",,,,
+memgpt-msc-dmr-gpt-4-turbo,"remove contributing study, benchmark or cohort",panel loses all support,,,memgpt,MSC,memgpt-msc-dmr-items,No aligned replacement or valid pooled estimate
+memgpt-msc-dmr-gpt-4-turbo,direct rubric endpoint only,no eligible objective,,,,,,Selected MemGPT DMR scores are memory-performance proxies
 imlogic-conversation,strict,evaluated,11,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",,,,
 imlogic-conversation,"remove contributing study, benchmark or cohort",panel loses all support,,,root_memory,IMLogic,imlogic-v2-full-20-conversation-cohort,No aligned replacement or valid pooled estimate
 imlogic-conversation,direct rubric endpoint only,no eligible objective,,,,,,"IMLogic fabrication traps are forced-choice diagnostics, not open-generation hallucination rates"

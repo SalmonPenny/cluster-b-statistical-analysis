@@ -1,4 +1,10 @@
 panel,removed_objective,full_first_front,status,first_front,new_front_members,lost_front_members,dominance_added,dominance_lost
+memgpt-msc-dmr-gpt-3-5-turbo,Deep memory retrieval / Accuracy,"[""GPT-3.5 Turbo / + MemGPT""]",omitted: one objective would remain,,,,,
+memgpt-msc-dmr-gpt-3-5-turbo,Deep memory retrieval / ROUGE-L Recall,"[""GPT-3.5 Turbo / + MemGPT""]",omitted: one objective would remain,,,,,
+memgpt-msc-dmr-gpt-4,Deep memory retrieval / Accuracy,"[""GPT-4 / + MemGPT""]",omitted: one objective would remain,,,,,
+memgpt-msc-dmr-gpt-4,Deep memory retrieval / ROUGE-L Recall,"[""GPT-4 / + MemGPT""]",omitted: one objective would remain,,,,,
+memgpt-msc-dmr-gpt-4-turbo,Deep memory retrieval / Accuracy,"[""GPT-4 Turbo / + MemGPT""]",omitted: one objective would remain,,,,,
+memgpt-msc-dmr-gpt-4-turbo,Deep memory retrieval / ROUGE-L Recall,"[""GPT-4 Turbo / + MemGPT""]",omitted: one objective would remain,,,,,
 imlogic-conversation,Conversation-level MCQ / Accuracy,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",evaluated,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",[],[],0,0
 imlogic-conversation,Conversation-level MCQ / Preference trap rate,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",evaluated,"[""LightMem | + RootMem"",""MemOS | + RootMem"",""T-Mem""]",[],"[""EverMemOS | + RootMem"",""Mem0"",""Mem0G"",""TACITREE""]",15,0
 imlogic-conversation,Conversation-level MCQ / Generic trap rate,"[""EverMemOS | + RootMem"",""LightMem | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",evaluated,"[""EverMemOS | + RootMem"",""Mem0"",""Mem0G"",""MemOS | + RootMem"",""T-Mem"",""TACITREE""]",[],"[""LightMem | + RootMem""]",5,0

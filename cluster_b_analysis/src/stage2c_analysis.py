@@ -31,6 +31,12 @@ IMLOGIC = (("Conversation-level MCQ", "Accuracy", "higher"),
            ("Conversation-level MCQ", "Generic trap rate", "lower"),
            ("Conversation-level MCQ", "Fabrication trap rate", "lower"))
 PANELS = (
+    *(Panel(f"memgpt-msc-dmr-{backbone}", "memgpt", "Table 2", f"memgpt-msc-dmr-{backbone}",
+            (("Deep memory retrieval", "Accuracy", "higher"), ("Deep memory retrieval", "ROUGE-L Recall", "higher")),
+            "matched backbone systems",
+            "Same reader and DMR questions. Judge correctness and lexical recall score the same answers."
+            " The memory access and source evidence differ between treatments.")
+      for backbone in ("gpt-3-5-turbo", "gpt-4", "gpt-4-turbo")),
     Panel("imlogic-conversation", "root_memory", "Table 5", "root-memory-imlogic-conversation-level-full",
           IMLOGIC, "evaluated systems and controlled additions",
           "Full IMLogic: GPT-4o-mini memory backbone, GPT-5.1 answerer, top-30. Four dependent answer categories."),
@@ -45,6 +51,10 @@ PANELS = (
 )
 
 REJECTIONS = (
+    ("oracle-chromatlas-nd", "Backbone matching is unverified and pairwise preferences and estimated tokens have distinct sampling units."),
+    ("memoryrewardbench-preferences", "Reward-model judgment is a distinct evaluand from answering with memory."),
+    ("locco-forgetting", "Exact values cover selected annotations. Unlabeled plot estimates are ineligible."),
+    ("msc-cross-study", "MemGPT deep memory retrieval and RMM next-response generation use distinct tasks and scorers."),
     ("twist-track-b", "Validated comparison key is shared within backends, but prompt, call and evidence conditions remain conditional."),
     ("membench-accuracy-efficiency", "Several times are left-censored and some cross-task accuracy rows have unresolved result lineage."),
     ("es-memeval-dialogue-objectives", "Observation-based and judge outcomes use separate reported tables and protocols; no verified strict cross-table objective vector was added."),

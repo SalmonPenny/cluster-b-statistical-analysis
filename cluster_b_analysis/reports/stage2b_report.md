@@ -76,3 +76,7 @@ The main joins are through the stable `stratum` key in the [protocol summaries](
 ## Stage 1D follow-up
 
 The Stage 1D rebuild preserves the preceding results and adds four publications. See the updated counts, evidence limits and downstream verification in the [Stage 1D report](stage1d_report.md).
+
+## Stage 1E follow-up
+
+The final pipeline yields 1,605 benchmark profiles and 1,374 failure-mode profiles. The audit found zero cross-study or cross-cohort matches across the 713 baseline-relative scopes. [Stage 1E report](stage1e_report.md)

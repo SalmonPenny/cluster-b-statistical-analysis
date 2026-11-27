@@ -70,6 +70,7 @@ def relative_event_reduction(target, baseline, *, direct_undesirable_rate):
 
 # These source-specific accuracy metrics have a documented correctness denominator.
 CORRECTNESS_METRICS = {
+    ("memgpt", "Accuracy"),
     ("rmm", "Accuracy"), ("longmemeval", "Accuracy"), ("memguard", "Accuracy"),
     ("halumem", "Accuracy"), ("mragent", "LLM-Judge"), ("telemem", "LLM-Judge"),
     ("telemem", "QA Accuracy"), ("sirin", "Served accuracy"),
